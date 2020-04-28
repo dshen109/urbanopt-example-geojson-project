@@ -78,7 +78,7 @@ end
 def baseline_scenario
   name = 'Baseline Scenario'
   run_dir = File.join(File.dirname(__FILE__), 'run/baseline_scenario/')
-  feature_file_path = File.join(File.dirname(__FILE__), 'example_project.json')
+  feature_file_path = File.join(File.dirname(__FILE__), 'gt_test_2.json')
   csv_file = File.join(File.dirname(__FILE__), 'baseline_scenario.csv')
   mapper_files_dir = File.join(File.dirname(__FILE__), 'mappers/')
   num_header_rows = 1

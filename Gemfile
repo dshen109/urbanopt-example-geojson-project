@@ -57,18 +57,20 @@ else
   # gem 'urbanopt-scenario', github: 'URBANopt/urbanopt-scenario-gem', branch: 'develop'
 end
 
-if allow_local && File.exists?('../urbanopt-geojson-gem')
+#if allow_local && File.exists?('../urbanopt-geojson-gem')
   # gem 'openstudio-extension', github: 'NREL/OpenStudio-extension-gem', branch: 'develop'
-  gem 'urbanopt-geojson', path: '../urbanopt-geojson-gem'
-elsif allow_local
+#  gem 'urbanopt-geojson', path: '../urbanopt-geojson-gem'
+#elsif allow_local
   gem 'urbanopt-geojson', github: 'URBANopt/urbanopt-geojson-gem', branch: 'develop'
-else
-  gem 'urbanopt-geojson', '0.2.0'
+#else
+#  gem 'urbanopt-geojson', '0.2.0'
   # gem 'urbanopt-geojson', github: 'URBANopt/urbanopt-geojson-gem', branch: 'develop'
-end
+#end
 
 # simplecov has an unneccesary dependency on native json gem, use fork that does not require this
 gem 'simplecov', github: 'NREL/simplecov'
+
+#gem 'openstudio-standards', '0.2.10'
 
 # Fix rack version temporarily to work with Ruby 2.2.4
 gem 'rack', '2.1.2'

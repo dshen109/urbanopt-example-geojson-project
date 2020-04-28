@@ -1,0 +1,6017 @@
+{
+    "type": "FeatureCollection",
+    "project": {
+      "name": "New Project",
+      "surface_elevation": null,
+      "import_surrounding_buildings_as_shading": null,
+      "tariff_filename": null,
+      "cec_climate_zone": null,
+      "id": "7c33a001-bccb-413e-ac87-67558b5d4b07",
+      "timesteps_per_hour": null,
+      "begin_date": null,
+      "end_date": null,
+      "climate_zone": null,
+      "default_template": null,
+      "weather_filename": null
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "86b17d5d-a982-48f8-93dc-61fbc9d96eb1",
+          "type": "Site Origin",
+          "name": "Site Origin",
+          "surface_elevation": null,
+          "import_surrounding_buildings_as_shading": null,
+          "timesteps_per_hour": null,
+          "begin_date": null,
+          "end_date": null,
+          "climate_zone": null,
+          "cec_climate_zone": null,
+          "default_template": null,
+          "weather_filename": null,
+          "tariff_filename": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.3972546,
+            33.77613925
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "1",
+          "osm_id": "302115",
+          "osm_type": "relation",
+          "amenity": "",
+          "location": "",
+          "type": "Building",
+          "gatech:LASTUPDATE": "",
+          "gatech:SUBTYPE": "",
+          "gatech:PRKG_NUM": "",
+          "parking": "",
+          "motor_vehicle": "",
+          "access": "",
+          "ownership": "",
+          "gatech:BLDG_NAME": "",
+          "gatech:BLDG_NUM": "2",
+          "gatech:BLDG_TYPE": "Academic/Research",
+          "leisure": "",
+          "name": "William Vernon Skiles Building",
+          "sport": "",
+          "addr:city": "",
+          "addr:housenumber": "",
+          "addr:postcode": "",
+          "addr:street": "",
+          "building": "yes",
+          "short_name": "Skiles",
+          "building:levels": "4",
+          "gatech:GlobalID": "{E7B6055D-D49B-4D14-91FD-93F6C37BCC4C}",
+          "gatech:OBJECTID": "296",
+          "gatech:UNDERGROUN": "no",
+          "loc_name": "Skiles Classroom Building",
+          "private": "",
+          "level": "",
+          "alt_name": "",
+          "wikidata": "",
+          "addr:country": "",
+          "opening_hours": "",
+          "old_name": "",
+          "fee": "",
+          "internet_access": "",
+          "wikipedia": "",
+          "beds": "",
+          "contact:phone": "",
+          "contact:website": "",
+          "emergency": "",
+          "gnis:feature_id": "",
+          "operator": "",
+          "phone": "",
+          "website": "",
+          "designation": "",
+          "ele": "",
+          "gnis:county_name": "",
+          "gnis:import_uuid": "",
+          "gnis:reviewed": "",
+          "addr:state": "",
+          "height": "",
+          "LandPro08:DE3": "",
+          "LandPro08:DE5": "",
+          "LandPro08:LC": "",
+          "LandPro08:LCLU": "",
+          "LandPro08:LC_NAME": "",
+          "LandPro08:LU": "",
+          "LandPro08:LU_NAME": "",
+          "landuse": "",
+          "cuisine": "",
+          "wheelchair": "",
+          "smoking": "",
+          "religion": "",
+          "denomination": "",
+          "gatech:TYPE": "",
+          "owner": "",
+          "capacity": "",
+          "gatech:ATL_BLDG_": "",
+          "gatech:ATL_BLDG_I": "",
+          "gatech:PERIMETER": "",
+          "gatech:Reference_": "",
+          "supervised": "",
+          "attribution": "",
+          "roof:levels": "",
+          "park_ride": "",
+          "surface": "",
+          "description": "",
+          "gatech:UNDERGROUND": "",
+          "gatech:OBJECTID_2": "",
+          "gatech:SHAPE_LENG": "",
+          "roof:shape": "",
+          "lit": "",
+          "tourism": "",
+          "layer": "",
+          "building:height": "",
+          "highway": "",
+          "drinkable": "",
+          "foot": "",
+          "step_count": "",
+          "shop": "",
+          "gnis:county_id": "",
+          "gnis:created": "",
+          "gnis:state_id": "",
+          "social_facility:for": "",
+          "contact:facebook": "",
+          "contact:twitter": "",
+          "building:part": "",
+          "lanes": "",
+          "delivery": "",
+          "natural": "",
+          "email": "",
+          "floor_area": 108288,
+          "footprint_area": 21657.6,
+          "number_of_stories": 5,
+          "template": "DOE Ref Pre-1980",
+          "mixed_type_1": "Office",
+          "mixed_type_1_percentage": 50,
+          "mixed_type_2": "Education",
+          "mixed_type_2_percentage": 50,
+          "building_type": "Mixed use",
+          "system_type": "Fan coil district chilled water with district hot water"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -84.3960407,
+                33.7738542
+              ],
+              [
+                -84.395797,
+                33.773852
+              ],
+              [
+                -84.3958003,
+                33.7733483
+              ],
+              [
+                -84.3959962,
+                33.7733495
+              ],
+              [
+                -84.3960109,
+                33.7733497
+              ],
+              [
+                -84.3960108,
+                33.7733538
+              ],
+              [
+                -84.3960812,
+                33.7733543
+              ],
+              [
+                -84.3960813,
+                33.7733502
+              ],
+              [
+                -84.3967101,
+                33.7733555
+              ],
+              [
+                -84.3967098,
+                33.7734502
+              ],
+              [
+                -84.396704,
+                33.7738596
+              ],
+              [
+                -84.3965217,
+                33.7738568
+              ],
+              [
+                -84.3962632,
+                33.7738551
+              ],
+              [
+                -84.3960641,
+                33.7738543
+              ],
+              [
+                -84.3960407,
+                33.7738542
+              ]
+            ],
+            [
+              [
+                -84.3965411,
+                33.7736707
+              ],
+              [
+                -84.3965269,
+                33.7736705
+              ],
+              [
+                -84.3965268,
+                33.773676
+              ],
+              [
+                -84.3964934,
+                33.7736758
+              ],
+              [
+                -84.3964938,
+                33.7736454
+              ],
+              [
+                -84.3965272,
+                33.7736456
+              ],
+              [
+                -84.3965271,
+                33.7736512
+              ],
+              [
+                -84.3965414,
+                33.7736512
+              ],
+              [
+                -84.3965433,
+                33.7734902
+              ],
+              [
+                -84.3960835,
+                33.7734864
+              ],
+              [
+                -84.3960804,
+                33.7737183
+              ],
+              [
+                -84.3965404,
+                33.7737221
+              ],
+              [
+                -84.3965411,
+                33.7736707
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "6",
+          "osm_id": "3178621",
+          "osm_type": "relation",
+          "amenity": "",
+          "location": "",
+          "type": "Building",
+          "gatech:LASTUPDATE": "",
+          "gatech:SUBTYPE": "",
+          "gatech:PRKG_NUM": "",
+          "parking": "",
+          "motor_vehicle": "",
+          "access": "",
+          "ownership": "",
+          "gatech:BLDG_NAME": "",
+          "gatech:BLDG_NUM": "104",
+          "gatech:BLDG_TYPE": "Admin/Services",
+          "leisure": "",
+          "name": "Fred B. Wenn Student Center",
+          "sport": "",
+          "addr:city": "",
+          "addr:housenumber": "",
+          "addr:postcode": "",
+          "addr:street": "",
+          "building": "yes",
+          "short_name": "Student Center",
+          "building:levels": "3",
+          "gatech:GlobalID": "",
+          "gatech:OBJECTID": "",
+          "gatech:UNDERGROUN": "",
+          "loc_name": "Wenn Student Center",
+          "private": "",
+          "level": "",
+          "alt_name": "",
+          "wikidata": "",
+          "addr:country": "",
+          "opening_hours": "",
+          "old_name": "",
+          "fee": "",
+          "internet_access": "",
+          "wikipedia": "",
+          "beds": "",
+          "contact:phone": "",
+          "contact:website": "",
+          "emergency": "",
+          "gnis:feature_id": "",
+          "operator": "",
+          "phone": "",
+          "website": "",
+          "designation": "",
+          "ele": "",
+          "gnis:county_name": "",
+          "gnis:import_uuid": "",
+          "gnis:reviewed": "",
+          "addr:state": "",
+          "height": "",
+          "LandPro08:DE3": "",
+          "LandPro08:DE5": "",
+          "LandPro08:LC": "",
+          "LandPro08:LCLU": "",
+          "LandPro08:LC_NAME": "",
+          "LandPro08:LU": "",
+          "LandPro08:LU_NAME": "",
+          "landuse": "",
+          "cuisine": "",
+          "wheelchair": "",
+          "smoking": "",
+          "religion": "",
+          "denomination": "",
+          "gatech:TYPE": "",
+          "owner": "",
+          "capacity": "",
+          "gatech:ATL_BLDG_": "",
+          "gatech:ATL_BLDG_I": "",
+          "gatech:PERIMETER": "",
+          "gatech:Reference_": "",
+          "supervised": "",
+          "attribution": "",
+          "roof:levels": "",
+          "park_ride": "",
+          "surface": "",
+          "description": "",
+          "gatech:UNDERGROUND": "",
+          "gatech:OBJECTID_2": "",
+          "gatech:SHAPE_LENG": "",
+          "roof:shape": "",
+          "lit": "",
+          "tourism": "",
+          "layer": "",
+          "building:height": "",
+          "highway": "",
+          "drinkable": "",
+          "foot": "",
+          "step_count": "",
+          "shop": "",
+          "gnis:county_id": "",
+          "gnis:created": "",
+          "gnis:state_id": "",
+          "social_facility:for": "",
+          "contact:facebook": "",
+          "contact:twitter": "",
+          "building:part": "",
+          "lanes": "",
+          "delivery": "",
+          "natural": "",
+          "email": "",
+          "footprint_area": 50000,
+          "number_of_stories": 2,
+          "template": "DOE Ref Pre-1980",
+          "building_type": "Mixed use",
+          "mixed_type_1": "Strip shopping mall",
+          "mixed_type_1_percentage": 25,
+          "mixed_type_2": "Food service",
+          "mixed_type_2_percentage": 25,
+          "mixed_type_3": "Office",
+          "mixed_type_3_percentage": 15,
+          "mixed_type_4": "Lodging",
+          "mixed_type_4_percentage": 35,
+          "floor_area": 100000,
+          "system_type": "VAV district chilled water with district hot water reheat"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -84.3984552,
+                33.7735901
+              ],
+              [
+                -84.3986251,
+                33.7735904
+              ],
+              [
+                -84.3986244,
+                33.7736457
+              ],
+              [
+                -84.3987155,
+                33.7736465
+              ],
+              [
+                -84.3987144,
+                33.7737477
+              ],
+              [
+                -84.3987243,
+                33.7737478
+              ],
+              [
+                -84.3987244,
+                33.773733
+              ],
+              [
+                -84.3989223,
+                33.7737347
+              ],
+              [
+                -84.398922,
+                33.7737493
+              ],
+              [
+                -84.3990201,
+                33.7737501
+              ],
+              [
+                -84.3990181,
+                33.7739154
+              ],
+              [
+                -84.399118,
+                33.7739106
+              ],
+              [
+                -84.3991178,
+                33.7739292
+              ],
+              [
+                -84.3991175,
+                33.7739509
+              ],
+              [
+                -84.3990178,
+                33.7739454
+              ],
+              [
+                -84.3990142,
+                33.7742619
+              ],
+              [
+                -84.399114,
+                33.7742582
+              ],
+              [
+                -84.3991138,
+                33.7742788
+              ],
+              [
+                -84.3991136,
+                33.7742986
+              ],
+              [
+                -84.3990139,
+                33.7742933
+              ],
+              [
+                -84.3990089,
+                33.774486
+              ],
+              [
+                -84.3990341,
+                33.7745018
+              ],
+              [
+                -84.3990373,
+                33.7745125
+              ],
+              [
+                -84.3990253,
+                33.7745305
+              ],
+              [
+                -84.3990033,
+                33.7745375
+              ],
+              [
+                -84.398627,
+                33.7745345
+              ],
+              [
+                -84.3986063,
+                33.7745278
+              ],
+              [
+                -84.3985936,
+                33.774509
+              ],
+              [
+                -84.3985972,
+                33.7744981
+              ],
+              [
+                -84.3986228,
+                33.7744829
+              ],
+              [
+                -84.398622,
+                33.7742946
+              ],
+              [
+                -84.3985194,
+                33.7742938
+              ],
+              [
+                -84.3985199,
+                33.7742533
+              ],
+              [
+                -84.398583,
+                33.7742538
+              ],
+              [
+                -84.3985826,
+                33.7742897
+              ],
+              [
+                -84.3986221,
+                33.77429
+              ],
+              [
+                -84.3986238,
+                33.7741018
+              ],
+              [
+                -84.3986007,
+                33.7741016
+              ],
+              [
+                -84.3986014,
+                33.7740105
+              ],
+              [
+                -84.3986026,
+                33.7739411
+              ],
+              [
+                -84.3985867,
+                33.773941
+              ],
+              [
+                -84.3985866,
+                33.7739469
+              ],
+              [
+                -84.3985234,
+                33.7739464
+              ],
+              [
+                -84.3985239,
+                33.7739059
+              ],
+              [
+                -84.3985871,
+                33.7739064
+              ],
+              [
+                -84.398587,
+                33.7739121
+              ],
+              [
+                -84.3986029,
+                33.7739122
+              ],
+              [
+                -84.3986026,
+                33.773879
+              ],
+              [
+                -84.3985854,
+                33.7738786
+              ],
+              [
+                -84.3985855,
+                33.7738744
+              ],
+              [
+                -84.3985937,
+                33.7738745
+              ],
+              [
+                -84.3985933,
+                33.7738662
+              ],
+              [
+                -84.3985249,
+                33.7738656
+              ],
+              [
+                -84.3985243,
+                33.7738698
+              ],
+              [
+                -84.3985275,
+                33.7738698
+              ],
+              [
+                -84.3985275,
+                33.773874
+              ],
+              [
+                -84.3984834,
+                33.7738736
+              ],
+              [
+                -84.3984835,
+                33.7738695
+              ],
+              [
+                -84.3984899,
+                33.7738696
+              ],
+              [
+                -84.3984897,
+                33.7738402
+              ],
+              [
+                -84.3984948,
+                33.7738402
+              ],
+              [
+                -84.3984959,
+                33.7737486
+              ],
+              [
+                -84.398455,
+                33.7737485
+              ],
+              [
+                -84.3984552,
+                33.7735901
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "10",
+          "osm_id": "3178622",
+          "osm_type": "relation",
+          "amenity": "",
+          "location": "",
+          "type": "Building",
+          "gatech:LASTUPDATE": "",
+          "gatech:SUBTYPE": "",
+          "gatech:PRKG_NUM": "",
+          "parking": "",
+          "motor_vehicle": "",
+          "access": "",
+          "ownership": "",
+          "gatech:BLDG_NAME": "",
+          "gatech:BLDG_NUM": "166",
+          "gatech:BLDG_TYPE": "",
+          "leisure": "",
+          "name": "G. Wayne Clough Undergraduate Learning Commons",
+          "sport": "",
+          "addr:city": "",
+          "addr:housenumber": "266",
+          "addr:postcode": "30332",
+          "addr:street": "Fourth St. NW",
+          "building": "yes",
+          "short_name": "CULC",
+          "building:levels": "5",
+          "gatech:GlobalID": "",
+          "gatech:OBJECTID": "",
+          "gatech:UNDERGROUN": "",
+          "loc_name": "Clough Undergraduate Learning Commons",
+          "private": "",
+          "level": "",
+          "alt_name": "CULC",
+          "wikidata": "Q5135804",
+          "addr:country": "",
+          "opening_hours": "",
+          "old_name": "",
+          "fee": "",
+          "internet_access": "",
+          "wikipedia": "",
+          "beds": "",
+          "contact:phone": "",
+          "contact:website": "",
+          "emergency": "",
+          "gnis:feature_id": "",
+          "operator": "",
+          "phone": "",
+          "website": "",
+          "designation": "",
+          "ele": "",
+          "gnis:county_name": "",
+          "gnis:import_uuid": "",
+          "gnis:reviewed": "",
+          "addr:state": "",
+          "height": "",
+          "LandPro08:DE3": "",
+          "LandPro08:DE5": "",
+          "LandPro08:LC": "",
+          "LandPro08:LCLU": "",
+          "LandPro08:LC_NAME": "",
+          "LandPro08:LU": "",
+          "LandPro08:LU_NAME": "",
+          "landuse": "",
+          "cuisine": "",
+          "wheelchair": "",
+          "smoking": "",
+          "religion": "",
+          "denomination": "",
+          "gatech:TYPE": "",
+          "owner": "",
+          "capacity": "",
+          "gatech:ATL_BLDG_": "",
+          "gatech:ATL_BLDG_I": "",
+          "gatech:PERIMETER": "",
+          "gatech:Reference_": "",
+          "supervised": "",
+          "attribution": "",
+          "roof:levels": "",
+          "park_ride": "",
+          "surface": "",
+          "description": "",
+          "gatech:UNDERGROUND": "",
+          "gatech:OBJECTID_2": "",
+          "gatech:SHAPE_LENG": "",
+          "roof:shape": "",
+          "lit": "",
+          "tourism": "",
+          "layer": "",
+          "building:height": "",
+          "highway": "",
+          "drinkable": "",
+          "foot": "",
+          "step_count": "",
+          "shop": "",
+          "gnis:county_id": "",
+          "gnis:created": "",
+          "gnis:state_id": "",
+          "social_facility:for": "",
+          "contact:facebook": "",
+          "contact:twitter": "",
+          "building:part": "",
+          "lanes": "",
+          "delivery": "",
+          "natural": "",
+          "email": "",
+          "footprint_area": 31333.3,
+          "building_type": "Education",
+          "number_of_stories": 6,
+          "template": "90.1-2010",
+          "floor_area": 188000
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -84.3960782,
+                33.7742316
+              ],
+              [
+                -84.3961659,
+                33.7742318
+              ],
+              [
+                -84.3961643,
+                33.7742183
+              ],
+              [
+                -84.3964787,
+                33.7742223
+              ],
+              [
+                -84.3964795,
+                33.7741958
+              ],
+              [
+                -84.3965678,
+                33.7741949
+              ],
+              [
+                -84.3966427,
+                33.7741941
+              ],
+              [
+                -84.3966365,
+                33.7743596
+              ],
+              [
+                -84.3966775,
+                33.7743594
+              ],
+              [
+                -84.3966616,
+                33.7744464
+              ],
+              [
+                -84.3966411,
+                33.7744486
+              ],
+              [
+                -84.3966384,
+                33.7746259
+              ],
+              [
+                -84.3966775,
+                33.7746278
+              ],
+              [
+                -84.3966683,
+                33.7746729
+              ],
+              [
+                -84.3966366,
+                33.7746711
+              ],
+              [
+                -84.3966367,
+                33.7748462
+              ],
+              [
+                -84.3966707,
+                33.7748468
+              ],
+              [
+                -84.3966664,
+                33.7748992
+              ],
+              [
+                -84.3966326,
+                33.774914
+              ],
+              [
+                -84.3966336,
+                33.7750384
+              ],
+              [
+                -84.3965941,
+                33.7750383
+              ],
+              [
+                -84.3965947,
+                33.7750485
+              ],
+              [
+                -84.3965628,
+                33.7750484
+              ],
+              [
+                -84.396529,
+                33.7750482
+              ],
+              [
+                -84.396529,
+                33.7750382
+              ],
+              [
+                -84.3965049,
+                33.7750381
+              ],
+              [
+                -84.3965036,
+                33.7751327
+              ],
+              [
+                -84.3963084,
+                33.7751309
+              ],
+              [
+                -84.3963068,
+                33.7751375
+              ],
+              [
+                -84.3961507,
+                33.7751356
+              ],
+              [
+                -84.3961544,
+                33.7744693
+              ],
+              [
+                -84.3960736,
+                33.7744704
+              ],
+              [
+                -84.3960782,
+                33.7742316
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "5",
+          "osm_id": "3178627",
+          "osm_type": "relation",
+          "amenity": "",
+          "location": "",
+          "type": "Building",
+          "gatech:LASTUPDATE": "",
+          "gatech:SUBTYPE": "",
+          "gatech:PRKG_NUM": "",
+          "parking": "",
+          "motor_vehicle": "",
+          "access": "",
+          "ownership": "",
+          "gatech:BLDG_NAME": "",
+          "gatech:BLDG_NUM": "84",
+          "gatech:BLDG_TYPE": "Academic/Research",
+          "leisure": "",
+          "name": "Paul Weber Building",
+          "sport": "",
+          "addr:city": "",
+          "addr:housenumber": "",
+          "addr:postcode": "",
+          "addr:street": "",
+          "building": "yes",
+          "short_name": "Weber SS&T 1",
+          "building:levels": "",
+          "gatech:GlobalID": "",
+          "gatech:OBJECTID": "",
+          "gatech:UNDERGROUN": "",
+          "loc_name": "Weber Space Science & Technology Building",
+          "private": "",
+          "level": "",
+          "alt_name": "",
+          "wikidata": "",
+          "addr:country": "",
+          "opening_hours": "",
+          "old_name": "",
+          "fee": "",
+          "internet_access": "",
+          "wikipedia": "",
+          "beds": "",
+          "contact:phone": "",
+          "contact:website": "",
+          "emergency": "",
+          "gnis:feature_id": "",
+          "operator": "",
+          "phone": "",
+          "website": "",
+          "designation": "",
+          "ele": "",
+          "gnis:county_name": "",
+          "gnis:import_uuid": "",
+          "gnis:reviewed": "",
+          "addr:state": "",
+          "height": "",
+          "LandPro08:DE3": "",
+          "LandPro08:DE5": "",
+          "LandPro08:LC": "",
+          "LandPro08:LCLU": "",
+          "LandPro08:LC_NAME": "",
+          "LandPro08:LU": "",
+          "LandPro08:LU_NAME": "",
+          "landuse": "",
+          "cuisine": "",
+          "wheelchair": "",
+          "smoking": "",
+          "religion": "",
+          "denomination": "",
+          "gatech:TYPE": "",
+          "owner": "",
+          "capacity": "",
+          "gatech:ATL_BLDG_": "",
+          "gatech:ATL_BLDG_I": "",
+          "gatech:PERIMETER": "",
+          "gatech:Reference_": "",
+          "supervised": "",
+          "attribution": "",
+          "roof:levels": "",
+          "park_ride": "",
+          "surface": "",
+          "description": "",
+          "gatech:UNDERGROUND": "",
+          "gatech:OBJECTID_2": "",
+          "gatech:SHAPE_LENG": "",
+          "roof:shape": "",
+          "lit": "",
+          "tourism": "",
+          "layer": "",
+          "building:height": "",
+          "highway": "",
+          "drinkable": "",
+          "foot": "",
+          "step_count": "",
+          "shop": "",
+          "gnis:county_id": "",
+          "gnis:created": "",
+          "gnis:state_id": "",
+          "social_facility:for": "",
+          "contact:facebook": "",
+          "contact:twitter": "",
+          "building:part": "",
+          "lanes": "",
+          "delivery": "",
+          "natural": "",
+          "email": "",
+          "building_type": "Office",
+          "footprint_area": 14394,
+          "number_of_stories": 3,
+          "template": "DOE Ref Pre-1980",
+          "floor_area": 43182
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -84.3965258,
+                33.7726505
+              ],
+              [
+                -84.3965258,
+                33.7726519
+              ],
+              [
+                -84.3967864,
+                33.7726515
+              ],
+              [
+                -84.396786,
+                33.7727208
+              ],
+              [
+                -84.3967951,
+                33.7727341
+              ],
+              [
+                -84.3967859,
+                33.7727385
+              ],
+              [
+                -84.396795,
+                33.7727614
+              ],
+              [
+                -84.3967858,
+                33.7727658
+              ],
+              [
+                -84.3967948,
+                33.7727887
+              ],
+              [
+                -84.3967856,
+                33.7727931
+              ],
+              [
+                -84.3967947,
+                33.772816
+              ],
+              [
+                -84.3967854,
+                33.7728203
+              ],
+              [
+                -84.3967946,
+                33.7728432
+              ],
+              [
+                -84.3967854,
+                33.7728477
+              ],
+              [
+                -84.3967944,
+                33.7728705
+              ],
+              [
+                -84.3967852,
+                33.7728749
+              ],
+              [
+                -84.3967942,
+                33.7728978
+              ],
+              [
+                -84.396785,
+                33.7729022
+              ],
+              [
+                -84.3967942,
+                33.7729251
+              ],
+              [
+                -84.3967849,
+                33.7729295
+              ],
+              [
+                -84.396794,
+                33.7729524
+              ],
+              [
+                -84.3967848,
+                33.7729568
+              ],
+              [
+                -84.3967896,
+                33.7729734
+              ],
+              [
+                -84.3967937,
+                33.7729796
+              ],
+              [
+                -84.3967846,
+                33.772984
+              ],
+              [
+                -84.3967846,
+                33.7729936
+              ],
+              [
+                -84.3967937,
+                33.7730069
+              ],
+              [
+                -84.3967845,
+                33.7730114
+              ],
+              [
+                -84.3967844,
+                33.7730208
+              ],
+              [
+                -84.3967936,
+                33.7730342
+              ],
+              [
+                -84.3967844,
+                33.7730386
+              ],
+              [
+                -84.3967843,
+                33.7730482
+              ],
+              [
+                -84.3967934,
+                33.7730615
+              ],
+              [
+                -84.3967842,
+                33.7730659
+              ],
+              [
+                -84.3967842,
+                33.7730754
+              ],
+              [
+                -84.3967933,
+                33.7730888
+              ],
+              [
+                -84.396784,
+                33.7730932
+              ],
+              [
+                -84.396784,
+                33.7731027
+              ],
+              [
+                -84.3967932,
+                33.7731161
+              ],
+              [
+                -84.3967837,
+                33.7731206
+              ],
+              [
+                -84.3967835,
+                33.7731471
+              ],
+              [
+                -84.3967432,
+                33.773147
+              ],
+              [
+                -84.3964541,
+                33.7731459
+              ],
+              [
+                -84.3964543,
+                33.7731194
+              ],
+              [
+                -84.3964448,
+                33.7731148
+              ],
+              [
+                -84.3964541,
+                33.7731015
+              ],
+              [
+                -84.3964541,
+                33.773092
+              ],
+              [
+                -84.396445,
+                33.7730876
+              ],
+              [
+                -84.3964542,
+                33.7730742
+              ],
+              [
+                -84.3964543,
+                33.7730647
+              ],
+              [
+                -84.3964451,
+                33.7730602
+              ],
+              [
+                -84.3964544,
+                33.7730469
+              ],
+              [
+                -84.396455,
+                33.7729831
+              ],
+              [
+                -84.3964564,
+                33.7728208
+              ],
+              [
+                -84.396458,
+                33.7726506
+              ],
+              [
+                -84.3965258,
+                33.7726505
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "9",
+          "osm_id": "42706123",
+          "osm_type": "relation",
+          "amenity": "",
+          "location": "",
+          "type": "Building",
+          "gatech:LASTUPDATE": "",
+          "gatech:SUBTYPE": "",
+          "gatech:PRKG_NUM": "",
+          "parking": "",
+          "motor_vehicle": "",
+          "access": "",
+          "ownership": "",
+          "gatech:BLDG_NAME": "",
+          "gatech:BLDG_NUM": "153",
+          "gatech:BLDG_TYPE": "Academic/Research",
+          "leisure": "",
+          "name": "Christopher W. Klaus Advanced Computing Building",
+          "sport": "",
+          "addr:city": "Atlanta",
+          "addr:housenumber": "266",
+          "addr:postcode": "30332",
+          "addr:street": "Ferst Drive Northwest",
+          "building": "yes",
+          "short_name": "Klaus",
+          "building:levels": "3",
+          "gatech:GlobalID": "",
+          "gatech:OBJECTID": "",
+          "gatech:UNDERGROUN": "",
+          "loc_name": "Klaus Advanced Computing Building",
+          "private": "",
+          "level": "",
+          "alt_name": "",
+          "wikidata": "Q6419835",
+          "addr:country": "US",
+          "opening_hours": "",
+          "old_name": "",
+          "fee": "",
+          "internet_access": "",
+          "wikipedia": "",
+          "beds": "",
+          "contact:phone": "",
+          "contact:website": "",
+          "emergency": "",
+          "gnis:feature_id": "",
+          "operator": "",
+          "phone": "",
+          "website": "",
+          "designation": "",
+          "ele": "",
+          "gnis:county_name": "",
+          "gnis:import_uuid": "",
+          "gnis:reviewed": "",
+          "addr:state": "",
+          "height": "",
+          "LandPro08:DE3": "",
+          "LandPro08:DE5": "",
+          "LandPro08:LC": "",
+          "LandPro08:LCLU": "",
+          "LandPro08:LC_NAME": "",
+          "LandPro08:LU": "",
+          "LandPro08:LU_NAME": "",
+          "landuse": "",
+          "cuisine": "",
+          "wheelchair": "",
+          "smoking": "",
+          "religion": "",
+          "denomination": "",
+          "gatech:TYPE": "",
+          "owner": "",
+          "capacity": "",
+          "gatech:ATL_BLDG_": "",
+          "gatech:ATL_BLDG_I": "",
+          "gatech:PERIMETER": "",
+          "gatech:Reference_": "",
+          "supervised": "",
+          "attribution": "",
+          "roof:levels": "",
+          "park_ride": "",
+          "surface": "",
+          "description": "",
+          "gatech:UNDERGROUND": "",
+          "gatech:OBJECTID_2": "",
+          "gatech:SHAPE_LENG": "",
+          "roof:shape": "",
+          "lit": "",
+          "tourism": "",
+          "layer": "",
+          "building:height": "",
+          "highway": "",
+          "drinkable": "",
+          "foot": "",
+          "step_count": "",
+          "shop": "",
+          "gnis:county_id": "",
+          "gnis:created": "",
+          "gnis:state_id": "",
+          "social_facility:for": "",
+          "contact:facebook": "",
+          "contact:twitter": "",
+          "building:part": "",
+          "lanes": "",
+          "delivery": "",
+          "natural": "",
+          "email": "",
+          "building_type": "Mixed use",
+          "number_of_stories": 4,
+          "template": "90.1-2004",
+          "system_type": "VAV district chilled water with district hot water reheat",
+          "mixed_type_1": "Education",
+          "mixed_type_1_percentage": 50,
+          "mixed_type_2": "Office",
+          "mixed_type_2_percentage": 50,
+          "floor_area": 184613,
+          "footprint_area": 46153.25
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -84.3958413,
+                33.7773162
+              ],
+              [
+                -84.3958219,
+                33.7772586
+              ],
+              [
+                -84.3958111,
+                33.7772204
+              ],
+              [
+                -84.3958005,
+                33.7771755
+              ],
+              [
+                -84.3957931,
+                33.7771369
+              ],
+              [
+                -84.3957889,
+                33.7771098
+              ],
+              [
+                -84.395785,
+                33.7770674
+              ],
+              [
+                -84.3957825,
+                33.7770392
+              ],
+              [
+                -84.3957812,
+                33.7770124
+              ],
+              [
+                -84.3957805,
+                33.7769851
+              ],
+              [
+                -84.3957805,
+                33.7769685
+              ],
+              [
+                -84.395781,
+                33.7769397
+              ],
+              [
+                -84.3957814,
+                33.7769113
+              ],
+              [
+                -84.3957826,
+                33.7768919
+              ],
+              [
+                -84.3957848,
+                33.7768691
+              ],
+              [
+                -84.3957882,
+                33.7768416
+              ],
+              [
+                -84.3957937,
+                33.7768075
+              ],
+              [
+                -84.3958037,
+                33.7767558
+              ],
+              [
+                -84.39582,
+                33.7766963
+              ],
+              [
+                -84.3958314,
+                33.7766603
+              ],
+              [
+                -84.3958468,
+                33.7766178
+              ],
+              [
+                -84.3958652,
+                33.7765732
+              ],
+              [
+                -84.3958822,
+                33.7765363
+              ],
+              [
+                -84.3959038,
+                33.7764941
+              ],
+              [
+                -84.395932,
+                33.7764449
+              ],
+              [
+                -84.3959518,
+                33.7764531
+              ],
+              [
+                -84.3960491,
+                33.7764933
+              ],
+              [
+                -84.3960686,
+                33.7764609
+              ],
+              [
+                -84.3961076,
+                33.7764773
+              ],
+              [
+                -84.3960856,
+                33.7765169
+              ],
+              [
+                -84.3960992,
+                33.7765225
+              ],
+              [
+                -84.3961209,
+                33.7765314
+              ],
+              [
+                -84.3961245,
+                33.7765256
+              ],
+              [
+                -84.3962837,
+                33.7765925
+              ],
+              [
+                -84.3962462,
+                33.7766592
+              ],
+              [
+                -84.396264,
+                33.7766655
+              ],
+              [
+                -84.3962455,
+                33.7767071
+              ],
+              [
+                -84.3962353,
+                33.7767324
+              ],
+              [
+                -84.3962262,
+                33.77676
+              ],
+              [
+                -84.396263,
+                33.7767608
+              ],
+              [
+                -84.396261,
+                33.7768401
+              ],
+              [
+                -84.3962589,
+                33.7769122
+              ],
+              [
+                -84.3960602,
+                33.7769058
+              ],
+              [
+                -84.395996,
+                33.7769038
+              ],
+              [
+                -84.3959942,
+                33.7770005
+              ],
+              [
+                -84.396192,
+                33.7769938
+              ],
+              [
+                -84.3961939,
+                33.777019
+              ],
+              [
+                -84.396195,
+                33.7770369
+              ],
+              [
+                -84.3961957,
+                33.7770461
+              ],
+              [
+                -84.3962574,
+                33.7770472
+              ],
+              [
+                -84.3963302,
+                33.7770484
+              ],
+              [
+                -84.3964008,
+                33.7770496
+              ],
+              [
+                -84.3964622,
+                33.7770506
+              ],
+              [
+                -84.3964625,
+                33.7770414
+              ],
+              [
+                -84.396463,
+                33.7770229
+              ],
+              [
+                -84.3964636,
+                33.7769992
+              ],
+              [
+                -84.3965131,
+                33.7770001
+              ],
+              [
+                -84.3965611,
+                33.7770009
+              ],
+              [
+                -84.3965606,
+                33.7770185
+              ],
+              [
+                -84.3965606,
+                33.7770188
+              ],
+              [
+                -84.3965603,
+                33.7770342
+              ],
+              [
+                -84.3965762,
+                33.7770345
+              ],
+              [
+                -84.3966529,
+                33.7770358
+              ],
+              [
+                -84.3966517,
+                33.7770826
+              ],
+              [
+                -84.3966502,
+                33.7771342
+              ],
+              [
+                -84.3966283,
+                33.7771337
+              ],
+              [
+                -84.3966085,
+                33.7771333
+              ],
+              [
+                -84.3966068,
+                33.7772021
+              ],
+              [
+                -84.3966482,
+                33.7772627
+              ],
+              [
+                -84.3966296,
+                33.7772719
+              ],
+              [
+                -84.3966532,
+                33.7773051
+              ],
+              [
+                -84.3966439,
+                33.77731
+              ],
+              [
+                -84.3966421,
+                33.7773084
+              ],
+              [
+                -84.3966024,
+                33.777328
+              ],
+              [
+                -84.3966088,
+                33.7773384
+              ],
+              [
+                -84.3963843,
+                33.7774493
+              ],
+              [
+                -84.3962069,
+                33.7775353
+              ],
+              [
+                -84.3962307,
+                33.7775639
+              ],
+              [
+                -84.396269,
+                33.7776047
+              ],
+              [
+                -84.3962984,
+                33.7776325
+              ],
+              [
+                -84.3963218,
+                33.7776527
+              ],
+              [
+                -84.3963448,
+                33.7776726
+              ],
+              [
+                -84.3963669,
+                33.7776904
+              ],
+              [
+                -84.3963978,
+                33.7777139
+              ],
+              [
+                -84.3964271,
+                33.7777347
+              ],
+              [
+                -84.3964157,
+                33.7777456
+              ],
+              [
+                -84.3964504,
+                33.7777682
+              ],
+              [
+                -84.3964306,
+                33.777788
+              ],
+              [
+                -84.3964078,
+                33.7778129
+              ],
+              [
+                -84.3964159,
+                33.7778176
+              ],
+              [
+                -84.3964041,
+                33.7778306
+              ],
+              [
+                -84.3963378,
+                33.7779038
+              ],
+              [
+                -84.3963083,
+                33.7778849
+              ],
+              [
+                -84.3962783,
+                33.7778646
+              ],
+              [
+                -84.3962535,
+                33.7778469
+              ],
+              [
+                -84.3962156,
+                33.777818
+              ],
+              [
+                -84.3961819,
+                33.7777906
+              ],
+              [
+                -84.3961511,
+                33.7777637
+              ],
+              [
+                -84.3961218,
+                33.7777365
+              ],
+              [
+                -84.3960856,
+                33.7777005
+              ],
+              [
+                -84.3960537,
+                33.7776659
+              ],
+              [
+                -84.3960105,
+                33.7776145
+              ],
+              [
+                -84.3959711,
+                33.7775617
+              ],
+              [
+                -84.3959492,
+                33.7775316
+              ],
+              [
+                -84.3959324,
+                33.7775035
+              ],
+              [
+                -84.3959128,
+                33.7774698
+              ],
+              [
+                -84.395903,
+                33.7774521
+              ],
+              [
+                -84.3959028,
+                33.7774518
+              ],
+              [
+                -84.3958888,
+                33.7774251
+              ],
+              [
+                -84.3958719,
+                33.7773902
+              ],
+              [
+                -84.3958565,
+                33.7773547
+              ],
+              [
+                -84.3958413,
+                33.7773162
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "4",
+          "osm_id": "42706130",
+          "osm_type": "relation",
+          "amenity": "",
+          "location": "",
+          "type": "Building",
+          "gatech:LASTUPDATE": "",
+          "gatech:SUBTYPE": "",
+          "gatech:PRKG_NUM": "",
+          "parking": "",
+          "motor_vehicle": "",
+          "access": "",
+          "ownership": "",
+          "gatech:BLDG_NAME": "",
+          "gatech:BLDG_NUM": "60A",
+          "gatech:BLDG_TYPE": "Academic/Research",
+          "leisure": "",
+          "name": "John and Joyce Caddell Building",
+          "sport": "",
+          "addr:city": "Atlanta",
+          "addr:housenumber": "280",
+          "addr:postcode": "30313",
+          "addr:street": "Ferst Dr NW",
+          "building": "yes",
+          "short_name": "",
+          "building:levels": "2",
+          "gatech:GlobalID": "",
+          "gatech:OBJECTID": "",
+          "gatech:UNDERGROUN": "",
+          "loc_name": "Caddell Building",
+          "private": "",
+          "level": "",
+          "alt_name": "School of Building Construction",
+          "wikidata": "",
+          "addr:country": "",
+          "opening_hours": "",
+          "old_name": "",
+          "fee": "",
+          "internet_access": "",
+          "wikipedia": "",
+          "beds": "",
+          "contact:phone": "",
+          "contact:website": "",
+          "emergency": "",
+          "gnis:feature_id": "",
+          "operator": "",
+          "phone": "",
+          "website": "",
+          "designation": "",
+          "ele": "",
+          "gnis:county_name": "",
+          "gnis:import_uuid": "",
+          "gnis:reviewed": "",
+          "addr:state": "GA",
+          "height": "",
+          "LandPro08:DE3": "",
+          "LandPro08:DE5": "",
+          "LandPro08:LC": "",
+          "LandPro08:LCLU": "",
+          "LandPro08:LC_NAME": "",
+          "LandPro08:LU": "",
+          "LandPro08:LU_NAME": "",
+          "landuse": "",
+          "cuisine": "",
+          "wheelchair": "",
+          "smoking": "",
+          "religion": "",
+          "denomination": "",
+          "gatech:TYPE": "",
+          "owner": "",
+          "capacity": "",
+          "gatech:ATL_BLDG_": "",
+          "gatech:ATL_BLDG_I": "",
+          "gatech:PERIMETER": "",
+          "gatech:Reference_": "",
+          "supervised": "",
+          "attribution": "",
+          "roof:levels": "",
+          "park_ride": "",
+          "surface": "",
+          "description": "",
+          "gatech:UNDERGROUND": "",
+          "gatech:OBJECTID_2": "",
+          "gatech:SHAPE_LENG": "",
+          "roof:shape": "",
+          "lit": "",
+          "tourism": "",
+          "layer": "",
+          "building:height": "",
+          "highway": "",
+          "drinkable": "",
+          "foot": "",
+          "step_count": "",
+          "shop": "",
+          "gnis:county_id": "",
+          "gnis:created": "",
+          "gnis:state_id": "",
+          "social_facility:for": "",
+          "contact:facebook": "",
+          "contact:twitter": "",
+          "building:part": "",
+          "lanes": "",
+          "delivery": "",
+          "natural": "",
+          "email": "",
+          "building_type": "Office",
+          "number_of_stories": 2,
+          "template": "DOE Ref Pre-1980",
+          "system_type": "VRF",
+          "floor_area": 10019,
+          "footprint_area": 5009.5
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -84.396766,
+                33.7765791
+              ],
+              [
+                -84.3967662,
+                33.7765642
+              ],
+              [
+                -84.3967664,
+                33.7765507
+              ],
+              [
+                -84.3967861,
+                33.7765511
+              ],
+              [
+                -84.3967871,
+                33.7765261
+              ],
+              [
+                -84.3968937,
+                33.7765285
+              ],
+              [
+                -84.3969307,
+                33.7765293
+              ],
+              [
+                -84.3969289,
+                33.7765878
+              ],
+              [
+                -84.3969224,
+                33.7767929
+              ],
+              [
+                -84.3969196,
+                33.776882
+              ],
+              [
+                -84.396776,
+                33.7768789
+              ],
+              [
+                -84.3967851,
+                33.7765794
+              ],
+              [
+                -84.396766,
+                33.7765791
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "7",
+          "osm_id": "42706134",
+          "osm_type": "relation",
+          "amenity": "",
+          "location": "",
+          "type": "Building",
+          "gatech:LASTUPDATE": "",
+          "gatech:SUBTYPE": "",
+          "gatech:PRKG_NUM": "",
+          "parking": "",
+          "motor_vehicle": "",
+          "access": "",
+          "ownership": "",
+          "gatech:BLDG_NAME": "",
+          "gatech:BLDG_NUM": "145",
+          "gatech:BLDG_TYPE": "Academic/Research",
+          "leisure": "",
+          "name": "Lamar Allen Sustainable Education Building",
+          "sport": "",
+          "addr:city": "",
+          "addr:housenumber": "",
+          "addr:postcode": "",
+          "addr:street": "",
+          "building": "yes",
+          "short_name": "Sustainable Education",
+          "building:levels": "",
+          "gatech:GlobalID": "",
+          "gatech:OBJECTID": "",
+          "gatech:UNDERGROUN": "",
+          "loc_name": "Sustainable Education (Allen Building)",
+          "private": "",
+          "level": "",
+          "alt_name": "",
+          "wikidata": "",
+          "addr:country": "",
+          "opening_hours": "",
+          "old_name": "",
+          "fee": "",
+          "internet_access": "",
+          "wikipedia": "",
+          "beds": "",
+          "contact:phone": "",
+          "contact:website": "",
+          "emergency": "",
+          "gnis:feature_id": "",
+          "operator": "",
+          "phone": "",
+          "website": "",
+          "designation": "",
+          "ele": "",
+          "gnis:county_name": "",
+          "gnis:import_uuid": "",
+          "gnis:reviewed": "",
+          "addr:state": "",
+          "height": "",
+          "LandPro08:DE3": "",
+          "LandPro08:DE5": "",
+          "LandPro08:LC": "",
+          "LandPro08:LCLU": "",
+          "LandPro08:LC_NAME": "",
+          "LandPro08:LU": "",
+          "LandPro08:LU_NAME": "",
+          "landuse": "",
+          "cuisine": "",
+          "wheelchair": "",
+          "smoking": "",
+          "religion": "",
+          "denomination": "",
+          "gatech:TYPE": "",
+          "owner": "",
+          "capacity": "",
+          "gatech:ATL_BLDG_": "",
+          "gatech:ATL_BLDG_I": "",
+          "gatech:PERIMETER": "",
+          "gatech:Reference_": "",
+          "supervised": "",
+          "attribution": "",
+          "roof:levels": "",
+          "park_ride": "",
+          "surface": "",
+          "description": "",
+          "gatech:UNDERGROUND": "",
+          "gatech:OBJECTID_2": "",
+          "gatech:SHAPE_LENG": "",
+          "roof:shape": "",
+          "lit": "",
+          "tourism": "",
+          "layer": "",
+          "building:height": "",
+          "highway": "",
+          "drinkable": "",
+          "foot": "",
+          "step_count": "",
+          "shop": "",
+          "gnis:county_id": "",
+          "gnis:created": "",
+          "gnis:state_id": "",
+          "social_facility:for": "",
+          "contact:facebook": "",
+          "contact:twitter": "",
+          "building:part": "",
+          "lanes": "",
+          "delivery": "",
+          "natural": "",
+          "email": "",
+          "building_type": "Mixed use",
+          "number_of_stories": 3,
+          "template": "DOE Ref 1980-2004",
+          "system_type": "PTAC with gas boiler",
+          "mixed_type_1": "Education",
+          "mixed_type_1_percentage": 50,
+          "mixed_type_2": "Office",
+          "mixed_type_2_percentage": 50,
+          "floor_area": 28954,
+          "footprint_area": 9651.3
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -84.3985874,
+                33.7761993
+              ],
+              [
+                -84.3985903,
+                33.7761112
+              ],
+              [
+                -84.3986299,
+                33.7761122
+              ],
+              [
+                -84.398632,
+                33.7760516
+              ],
+              [
+                -84.3988111,
+                33.7760557
+              ],
+              [
+                -84.3989926,
+                33.77606
+              ],
+              [
+                -84.3989905,
+                33.7761206
+              ],
+              [
+                -84.3990301,
+                33.7761216
+              ],
+              [
+                -84.3990243,
+                33.776296
+              ],
+              [
+                -84.3988072,
+                33.7762909
+              ],
+              [
+                -84.3985845,
+                33.7762857
+              ],
+              [
+                -84.3985874,
+                33.7761993
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "2",
+          "osm_id": "42726100",
+          "osm_type": "relation",
+          "amenity": "",
+          "location": "",
+          "type": "Building",
+          "gatech:LASTUPDATE": "",
+          "gatech:SUBTYPE": "",
+          "gatech:PRKG_NUM": "",
+          "parking": "",
+          "motor_vehicle": "",
+          "access": "",
+          "ownership": "",
+          "gatech:BLDG_NAME": "",
+          "gatech:BLDG_NUM": "33",
+          "gatech:BLDG_TYPE": "Academic/Research",
+          "leisure": "",
+          "name": "O'Keefe Main Building",
+          "sport": "",
+          "addr:city": "",
+          "addr:housenumber": "",
+          "addr:postcode": "",
+          "addr:street": "",
+          "building": "yes",
+          "short_name": "O'Keefe",
+          "building:levels": "",
+          "gatech:GlobalID": "",
+          "gatech:OBJECTID": "",
+          "gatech:UNDERGROUN": "",
+          "loc_name": "O'Keefe Main Building",
+          "private": "",
+          "level": "",
+          "alt_name": "",
+          "wikidata": "",
+          "addr:country": "",
+          "opening_hours": "",
+          "old_name": "",
+          "fee": "",
+          "internet_access": "",
+          "wikipedia": "",
+          "beds": "",
+          "contact:phone": "",
+          "contact:website": "",
+          "emergency": "",
+          "gnis:feature_id": "",
+          "operator": "",
+          "phone": "",
+          "website": "",
+          "designation": "",
+          "ele": "",
+          "gnis:county_name": "",
+          "gnis:import_uuid": "",
+          "gnis:reviewed": "",
+          "addr:state": "",
+          "height": "",
+          "LandPro08:DE3": "",
+          "LandPro08:DE5": "",
+          "LandPro08:LC": "",
+          "LandPro08:LCLU": "",
+          "LandPro08:LC_NAME": "",
+          "LandPro08:LU": "",
+          "LandPro08:LU_NAME": "",
+          "landuse": "",
+          "cuisine": "",
+          "wheelchair": "",
+          "smoking": "",
+          "religion": "",
+          "denomination": "",
+          "gatech:TYPE": "",
+          "owner": "",
+          "capacity": "",
+          "gatech:ATL_BLDG_": "",
+          "gatech:ATL_BLDG_I": "",
+          "gatech:PERIMETER": "",
+          "gatech:Reference_": "",
+          "supervised": "",
+          "attribution": "",
+          "roof:levels": "",
+          "park_ride": "",
+          "surface": "",
+          "description": "",
+          "gatech:UNDERGROUND": "",
+          "gatech:OBJECTID_2": "",
+          "gatech:SHAPE_LENG": "",
+          "roof:shape": "",
+          "lit": "",
+          "tourism": "",
+          "layer": "",
+          "building:height": "",
+          "highway": "",
+          "drinkable": "",
+          "foot": "",
+          "step_count": "",
+          "shop": "",
+          "gnis:county_id": "",
+          "gnis:created": "",
+          "gnis:state_id": "",
+          "social_facility:for": "",
+          "contact:facebook": "",
+          "contact:twitter": "",
+          "building:part": "",
+          "lanes": "",
+          "delivery": "",
+          "natural": "",
+          "email": "",
+          "building_type": "Office",
+          "number_of_stories": 5,
+          "template": "DOE Ref Pre-1980",
+          "floor_area": 127477,
+          "footprint_area": 25495.4,
+          "system_type": "VAV air-cooled chiller with gas boiler reheat"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -84.3920398,
+                33.7793517
+              ],
+              [
+                -84.3920409,
+                33.7792976
+              ],
+              [
+                -84.3919926,
+                33.7792975
+              ],
+              [
+                -84.3919926,
+                33.7792939
+              ],
+              [
+                -84.3919458,
+                33.7792933
+              ],
+              [
+                -84.3919459,
+                33.779297
+              ],
+              [
+                -84.3918089,
+                33.7792953
+              ],
+              [
+                -84.3918012,
+                33.7792227
+              ],
+              [
+                -84.3918763,
+                33.7792231
+              ],
+              [
+                -84.391876,
+                33.7792451
+              ],
+              [
+                -84.3920413,
+                33.7792479
+              ],
+              [
+                -84.3920448,
+                33.7789828
+              ],
+              [
+                -84.3920325,
+                33.7789826
+              ],
+              [
+                -84.3920317,
+                33.778982
+              ],
+              [
+                -84.3920102,
+                33.7789635
+              ],
+              [
+                -84.3920082,
+                33.7789618
+              ],
+              [
+                -84.3920084,
+                33.778951
+              ],
+              [
+                -84.3920286,
+                33.7789346
+              ],
+              [
+                -84.392033,
+                33.7789346
+              ],
+              [
+                -84.3920345,
+                33.7788112
+              ],
+              [
+                -84.3920103,
+                33.7787907
+              ],
+              [
+                -84.3920104,
+                33.7787795
+              ],
+              [
+                -84.3920115,
+                33.7787786
+              ],
+              [
+                -84.3920337,
+                33.7787607
+              ],
+              [
+                -84.3920354,
+                33.7787592
+              ],
+              [
+                -84.3920477,
+                33.7787593
+              ],
+              [
+                -84.39205,
+                33.7786125
+              ],
+              [
+                -84.3920519,
+                33.7786125
+              ],
+              [
+                -84.3920538,
+                33.7784945
+              ],
+              [
+                -84.3920434,
+                33.7784944
+              ],
+              [
+                -84.3920434,
+                33.7784916
+              ],
+              [
+                -84.3920538,
+                33.7784918
+              ],
+              [
+                -84.3920541,
+                33.7784718
+              ],
+              [
+                -84.3920435,
+                33.7784718
+              ],
+              [
+                -84.3920435,
+                33.778469
+              ],
+              [
+                -84.3920542,
+                33.7784691
+              ],
+              [
+                -84.3920543,
+                33.7784631
+              ],
+              [
+                -84.3920695,
+                33.7784634
+              ],
+              [
+                -84.3921287,
+                33.778464
+              ],
+              [
+                -84.3921294,
+                33.7784246
+              ],
+              [
+                -84.3921306,
+                33.7783322
+              ],
+              [
+                -84.3921314,
+                33.7782959
+              ],
+              [
+                -84.3924011,
+                33.7782988
+              ],
+              [
+                -84.3924017,
+                33.7782631
+              ],
+              [
+                -84.3924661,
+                33.7782638
+              ],
+              [
+                -84.3924655,
+                33.7782995
+              ],
+              [
+                -84.3926123,
+                33.7783011
+              ],
+              [
+                -84.3926097,
+                33.7784706
+              ],
+              [
+                -84.392603,
+                33.7784705
+              ],
+              [
+                -84.3924629,
+                33.778469
+              ],
+              [
+                -84.3924624,
+                33.7785017
+              ],
+              [
+                -84.392398,
+                33.7785009
+              ],
+              [
+                -84.3923985,
+                33.7784682
+              ],
+              [
+                -84.3922613,
+                33.7784668
+              ],
+              [
+                -84.392259,
+                33.7786143
+              ],
+              [
+                -84.3922617,
+                33.7786143
+              ],
+              [
+                -84.3922591,
+                33.7787893
+              ],
+              [
+                -84.3922928,
+                33.7787897
+              ],
+              [
+                -84.3922901,
+                33.7789568
+              ],
+              [
+                -84.392258,
+                33.7789565
+              ],
+              [
+                -84.3922553,
+                33.779134
+              ],
+              [
+                -84.3922519,
+                33.7791342
+              ],
+              [
+                -84.3922506,
+                33.7792161
+              ],
+              [
+                -84.3922485,
+                33.779354
+              ],
+              [
+                -84.3921247,
+                33.7793531
+              ],
+              [
+                -84.3920398,
+                33.7793517
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "12",
+          "osm_id": "42727187",
+          "osm_type": "relation",
+          "amenity": "",
+          "location": "",
+          "type": "Building",
+          "gatech:LASTUPDATE": "",
+          "gatech:SUBTYPE": "",
+          "gatech:PRKG_NUM": "",
+          "parking": "",
+          "motor_vehicle": "",
+          "access": "",
+          "ownership": "",
+          "gatech:BLDG_NAME": "",
+          "gatech:BLDG_NUM": "180",
+          "gatech:BLDG_TYPE": "Residence Halls",
+          "leisure": "",
+          "name": "Tenth and Home Building D",
+          "sport": "",
+          "addr:city": "",
+          "addr:housenumber": "",
+          "addr:postcode": "",
+          "addr:street": "",
+          "building": "yes",
+          "short_name": "Family Apts.",
+          "building:levels": "",
+          "gatech:GlobalID": "",
+          "gatech:OBJECTID": "",
+          "gatech:UNDERGROUN": "",
+          "loc_name": "Tenth and Home",
+          "private": "",
+          "level": "",
+          "alt_name": "",
+          "wikidata": "",
+          "addr:country": "",
+          "opening_hours": "",
+          "old_name": "",
+          "fee": "",
+          "internet_access": "",
+          "wikipedia": "",
+          "beds": "",
+          "contact:phone": "",
+          "contact:website": "",
+          "emergency": "",
+          "gnis:feature_id": "",
+          "operator": "",
+          "phone": "",
+          "website": "",
+          "designation": "",
+          "ele": "",
+          "gnis:county_name": "",
+          "gnis:import_uuid": "",
+          "gnis:reviewed": "",
+          "addr:state": "",
+          "height": "",
+          "LandPro08:DE3": "",
+          "LandPro08:DE5": "",
+          "LandPro08:LC": "",
+          "LandPro08:LCLU": "",
+          "LandPro08:LC_NAME": "",
+          "LandPro08:LU": "",
+          "LandPro08:LU_NAME": "",
+          "landuse": "",
+          "cuisine": "",
+          "wheelchair": "",
+          "smoking": "",
+          "religion": "",
+          "denomination": "",
+          "gatech:TYPE": "",
+          "owner": "",
+          "capacity": "",
+          "gatech:ATL_BLDG_": "",
+          "gatech:ATL_BLDG_I": "",
+          "gatech:PERIMETER": "",
+          "gatech:Reference_": "",
+          "supervised": "",
+          "attribution": "",
+          "roof:levels": "",
+          "park_ride": "",
+          "surface": "",
+          "description": "",
+          "gatech:UNDERGROUND": "",
+          "gatech:OBJECTID_2": "",
+          "gatech:SHAPE_LENG": "",
+          "roof:shape": "",
+          "lit": "",
+          "tourism": "",
+          "layer": "",
+          "building:height": "",
+          "highway": "",
+          "drinkable": "",
+          "foot": "",
+          "step_count": "",
+          "shop": "",
+          "gnis:county_id": "",
+          "gnis:created": "",
+          "gnis:state_id": "",
+          "social_facility:for": "",
+          "contact:facebook": "",
+          "contact:twitter": "",
+          "building:part": "",
+          "lanes": "",
+          "delivery": "",
+          "natural": "",
+          "email": "",
+          "building_type": "Multifamily (5 or more units)",
+          "number_of_stories": 4,
+          "template": "DOE Ref 1980-2004",
+          "system_type": "Fan coil district chilled water with district hot water",
+          "floor_area": 27350,
+          "footprint_area": 6837.5,
+          "year_built": 2004
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -84.3958043,
+                33.7828108
+              ],
+              [
+                -84.3958085,
+                33.782793
+              ],
+              [
+                -84.395767,
+                33.782786
+              ],
+              [
+                -84.3957753,
+                33.7827514
+              ],
+              [
+                -84.395791,
+                33.7827541
+              ],
+              [
+                -84.3958012,
+                33.7826976
+              ],
+              [
+                -84.3958214,
+                33.7826283
+              ],
+              [
+                -84.3958057,
+                33.7826257
+              ],
+              [
+                -84.3958141,
+                33.782591
+              ],
+              [
+                -84.3958556,
+                33.7825979
+              ],
+              [
+                -84.3958582,
+                33.7825869
+              ],
+              [
+                -84.3958602,
+                33.7825791
+              ],
+              [
+                -84.3957739,
+                33.7825618
+              ],
+              [
+                -84.3957708,
+                33.7825747
+              ],
+              [
+                -84.3957297,
+                33.7825679
+              ],
+              [
+                -84.395738,
+                33.7825332
+              ],
+              [
+                -84.3956998,
+                33.7825268
+              ],
+              [
+                -84.3956914,
+                33.7825615
+              ],
+              [
+                -84.3956499,
+                33.7825544
+              ],
+              [
+                -84.3956531,
+                33.7825413
+              ],
+              [
+                -84.3955819,
+                33.7825323
+              ],
+              [
+                -84.3954928,
+                33.7825226
+              ],
+              [
+                -84.3955089,
+                33.7824705
+              ],
+              [
+                -84.3954931,
+                33.7824678
+              ],
+              [
+                -84.3955015,
+                33.7824331
+              ],
+              [
+                -84.3955431,
+                33.7824401
+              ],
+              [
+                -84.3955474,
+                33.7824222
+              ],
+              [
+                -84.395581,
+                33.7824278
+              ],
+              [
+                -84.3955867,
+                33.7824042
+              ],
+              [
+                -84.3956106,
+                33.7824071
+              ],
+              [
+                -84.3956273,
+                33.7824111
+              ],
+              [
+                -84.3956251,
+                33.7824205
+              ],
+              [
+                -84.3956478,
+                33.7824273
+              ],
+              [
+                -84.3956793,
+                33.7824325
+              ],
+              [
+                -84.3956825,
+                33.7824195
+              ],
+              [
+                -84.395724,
+                33.7824264
+              ],
+              [
+                -84.3957157,
+                33.7824611
+              ],
+              [
+                -84.3957539,
+                33.7824676
+              ],
+              [
+                -84.3957623,
+                33.7824329
+              ],
+              [
+                -84.3958037,
+                33.7824398
+              ],
+              [
+                -84.3958005,
+                33.7824529
+              ],
+              [
+                -84.395832,
+                33.7824583
+              ],
+              [
+                -84.3958561,
+                33.7824594
+              ],
+              [
+                -84.3958596,
+                33.7824452
+              ],
+              [
+                -84.3958838,
+                33.782448
+              ],
+              [
+                -84.3959002,
+                33.782452
+              ],
+              [
+                -84.3958933,
+                33.7824802
+              ],
+              [
+                -84.3959269,
+                33.7824861
+              ],
+              [
+                -84.3959225,
+                33.782504
+              ],
+              [
+                -84.3959642,
+                33.7825107
+              ],
+              [
+                -84.3959555,
+                33.7825455
+              ],
+              [
+                -84.39594,
+                33.7825431
+              ],
+              [
+                -84.3959318,
+                33.7825924
+              ],
+              [
+                -84.3959385,
+                33.7825935
+              ],
+              [
+                -84.3959342,
+                33.7826112
+              ],
+              [
+                -84.3959758,
+                33.7826182
+              ],
+              [
+                -84.3959674,
+                33.7826529
+              ],
+              [
+                -84.3959516,
+                33.78265
+              ],
+              [
+                -84.3959453,
+                33.7826765
+              ],
+              [
+                -84.395944,
+                33.7826967
+              ],
+              [
+                -84.395961,
+                33.7826996
+              ],
+              [
+                -84.3959546,
+                33.7827257
+              ],
+              [
+                -84.3959528,
+                33.7827335
+              ],
+              [
+                -84.3959358,
+                33.7827306
+              ],
+              [
+                -84.3959277,
+                33.7827496
+              ],
+              [
+                -84.3959214,
+                33.7827759
+              ],
+              [
+                -84.395937,
+                33.7827786
+              ],
+              [
+                -84.3959287,
+                33.7828132
+              ],
+              [
+                -84.3958872,
+                33.7828062
+              ],
+              [
+                -84.3958828,
+                33.782824
+              ],
+              [
+                -84.3958043,
+                33.7828108
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "14",
+          "osm_id": "42795190",
+          "osm_type": "relation",
+          "amenity": "",
+          "location": "",
+          "type": "Building",
+          "gatech:LASTUPDATE": "",
+          "gatech:SUBTYPE": "",
+          "gatech:PRKG_NUM": "",
+          "parking": "",
+          "motor_vehicle": "",
+          "access": "",
+          "ownership": "",
+          "gatech:BLDG_NAME": "",
+          "gatech:BLDG_NUM": "52",
+          "gatech:BLDG_TYPE": "Residence Halls",
+          "leisure": "",
+          "name": "Tenth and Home Building G",
+          "sport": "",
+          "addr:city": "",
+          "addr:housenumber": "",
+          "addr:postcode": "",
+          "addr:street": "",
+          "building": "yes",
+          "short_name": "",
+          "building:levels": "",
+          "gatech:GlobalID": "",
+          "gatech:OBJECTID": "",
+          "gatech:UNDERGROUN": "",
+          "loc_name": "",
+          "private": "",
+          "level": "",
+          "alt_name": "",
+          "wikidata": "",
+          "addr:country": "",
+          "opening_hours": "",
+          "old_name": "",
+          "fee": "",
+          "internet_access": "",
+          "wikipedia": "",
+          "beds": "",
+          "contact:phone": "",
+          "contact:website": "",
+          "emergency": "",
+          "gnis:feature_id": "",
+          "operator": "",
+          "phone": "",
+          "website": "",
+          "designation": "",
+          "ele": "",
+          "gnis:county_name": "",
+          "gnis:import_uuid": "",
+          "gnis:reviewed": "",
+          "addr:state": "",
+          "height": "",
+          "LandPro08:DE3": "",
+          "LandPro08:DE5": "",
+          "LandPro08:LC": "",
+          "LandPro08:LCLU": "",
+          "LandPro08:LC_NAME": "",
+          "LandPro08:LU": "",
+          "LandPro08:LU_NAME": "",
+          "landuse": "",
+          "cuisine": "",
+          "wheelchair": "",
+          "smoking": "",
+          "religion": "",
+          "denomination": "",
+          "gatech:TYPE": "",
+          "owner": "",
+          "capacity": "",
+          "gatech:ATL_BLDG_": "",
+          "gatech:ATL_BLDG_I": "",
+          "gatech:PERIMETER": "",
+          "gatech:Reference_": "",
+          "supervised": "",
+          "attribution": "",
+          "roof:levels": "",
+          "park_ride": "",
+          "surface": "",
+          "description": "",
+          "gatech:UNDERGROUND": "",
+          "gatech:OBJECTID_2": "",
+          "gatech:SHAPE_LENG": "",
+          "roof:shape": "",
+          "lit": "",
+          "tourism": "",
+          "layer": "",
+          "building:height": "",
+          "highway": "",
+          "drinkable": "",
+          "foot": "",
+          "step_count": "",
+          "shop": "",
+          "gnis:county_id": "",
+          "gnis:created": "",
+          "gnis:state_id": "",
+          "social_facility:for": "",
+          "contact:facebook": "",
+          "contact:twitter": "",
+          "building:part": "",
+          "lanes": "",
+          "delivery": "",
+          "natural": "",
+          "email": "",
+          "floor_area": 29756,
+          "footprint_area": 7439,
+          "number_of_stories": 4,
+          "template": "DOE Ref 1980-2004",
+          "building_type": "Multifamily (5 or more units)",
+          "system_type": "Fan coil air-cooled chiller with boiler",
+          "year_built": 2004
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -84.396756,
+                33.7823368
+              ],
+              [
+                -84.3967248,
+                33.7823316
+              ],
+              [
+                -84.3967008,
+                33.7823303
+              ],
+              [
+                -84.3966988,
+                33.7823397
+              ],
+              [
+                -84.3966585,
+                33.7823329
+              ],
+              [
+                -84.3966607,
+                33.7823235
+              ],
+              [
+                -84.3966071,
+                33.7823117
+              ],
+              [
+                -84.396604,
+                33.7823247
+              ],
+              [
+                -84.3965628,
+                33.7823178
+              ],
+              [
+                -84.3965711,
+                33.7822833
+              ],
+              [
+                -84.3965502,
+                33.7822798
+              ],
+              [
+                -84.3965658,
+                33.7822149
+              ],
+              [
+                -84.396587,
+                33.7822184
+              ],
+              [
+                -84.3965953,
+                33.782184
+              ],
+              [
+                -84.3966363,
+                33.782191
+              ],
+              [
+                -84.3966331,
+                33.7822039
+              ],
+              [
+                -84.3967084,
+                33.7822137
+              ],
+              [
+                -84.3967821,
+                33.782229
+              ],
+              [
+                -84.3967852,
+                33.782216
+              ],
+              [
+                -84.3968263,
+                33.7822229
+              ],
+              [
+                -84.396818,
+                33.7822573
+              ],
+              [
+                -84.3968294,
+                33.7822592
+              ],
+              [
+                -84.3968404,
+                33.782261
+              ],
+              [
+                -84.396861,
+                33.78219
+              ],
+              [
+                -84.3968455,
+                33.7821875
+              ],
+              [
+                -84.3968537,
+                33.7821532
+              ],
+              [
+                -84.3968948,
+                33.7821601
+              ],
+              [
+                -84.3969025,
+                33.7821285
+              ],
+              [
+                -84.3968613,
+                33.7821216
+              ],
+              [
+                -84.3968696,
+                33.7820874
+              ],
+              [
+                -84.3968849,
+                33.7820896
+              ],
+              [
+                -84.3968958,
+                33.7820307
+              ],
+              [
+                -84.396915,
+                33.7819654
+              ],
+              [
+                -84.3968995,
+                33.7819628
+              ],
+              [
+                -84.3969078,
+                33.7819285
+              ],
+              [
+                -84.396949,
+                33.7819355
+              ],
+              [
+                -84.3969532,
+                33.7819178
+              ],
+              [
+                -84.397031,
+                33.7819309
+              ],
+              [
+                -84.3970265,
+                33.7819484
+              ],
+              [
+                -84.3970678,
+                33.7819554
+              ],
+              [
+                -84.3970595,
+                33.7819898
+              ],
+              [
+                -84.397044,
+                33.7819872
+              ],
+              [
+                -84.3970365,
+                33.7820331
+              ],
+              [
+                -84.3970476,
+                33.7820349
+              ],
+              [
+                -84.3970426,
+                33.7820556
+              ],
+              [
+                -84.3970395,
+                33.7820685
+              ],
+              [
+                -84.3970284,
+                33.7820667
+              ],
+              [
+                -84.3970141,
+                33.7821115
+              ],
+              [
+                -84.3970296,
+                33.7821141
+              ],
+              [
+                -84.3970213,
+                33.7821485
+              ],
+              [
+                -84.3969802,
+                33.7821416
+              ],
+              [
+                -84.3969726,
+                33.7821731
+              ],
+              [
+                -84.3970138,
+                33.7821801
+              ],
+              [
+                -84.3970055,
+                33.7822143
+              ],
+              [
+                -84.3969903,
+                33.7822117
+              ],
+              [
+                -84.3969837,
+                33.7822377
+              ],
+              [
+                -84.3969824,
+                33.7822577
+              ],
+              [
+                -84.3969935,
+                33.7822595
+              ],
+              [
+                -84.3969885,
+                33.78228
+              ],
+              [
+                -84.3969854,
+                33.7822932
+              ],
+              [
+                -84.3969573,
+                33.7822884
+              ],
+              [
+                -84.3969506,
+                33.7823161
+              ],
+              [
+                -84.3969293,
+                33.7823126
+              ],
+              [
+                -84.396921,
+                33.7823471
+              ],
+              [
+                -84.3968797,
+                33.7823403
+              ],
+              [
+                -84.3968833,
+                33.7823273
+              ],
+              [
+                -84.3968518,
+                33.782322
+              ],
+              [
+                -84.3968022,
+                33.7823224
+              ],
+              [
+                -84.3967939,
+                33.7823568
+              ],
+              [
+                -84.3967528,
+                33.7823498
+              ],
+              [
+                -84.396756,
+                33.7823368
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "13",
+          "osm_id": "42796148",
+          "osm_type": "relation",
+          "amenity": "",
+          "location": "",
+          "type": "Building",
+          "gatech:LASTUPDATE": "",
+          "gatech:SUBTYPE": "",
+          "gatech:PRKG_NUM": "",
+          "parking": "",
+          "motor_vehicle": "",
+          "access": "",
+          "ownership": "",
+          "gatech:BLDG_NAME": "",
+          "gatech:BLDG_NUM": "52",
+          "gatech:BLDG_TYPE": "Residence Halls",
+          "leisure": "",
+          "name": "Tenth and Home Building E",
+          "sport": "",
+          "addr:city": "",
+          "addr:housenumber": "",
+          "addr:postcode": "",
+          "addr:street": "",
+          "building": "yes",
+          "short_name": "",
+          "building:levels": "",
+          "gatech:GlobalID": "",
+          "gatech:OBJECTID": "",
+          "gatech:UNDERGROUN": "",
+          "loc_name": "",
+          "private": "",
+          "level": "",
+          "alt_name": "",
+          "wikidata": "",
+          "addr:country": "",
+          "opening_hours": "",
+          "old_name": "",
+          "fee": "",
+          "internet_access": "",
+          "wikipedia": "",
+          "beds": "",
+          "contact:phone": "",
+          "contact:website": "",
+          "emergency": "",
+          "gnis:feature_id": "",
+          "operator": "",
+          "phone": "",
+          "website": "",
+          "designation": "",
+          "ele": "",
+          "gnis:county_name": "",
+          "gnis:import_uuid": "",
+          "gnis:reviewed": "",
+          "addr:state": "",
+          "height": "",
+          "LandPro08:DE3": "",
+          "LandPro08:DE5": "",
+          "LandPro08:LC": "",
+          "LandPro08:LCLU": "",
+          "LandPro08:LC_NAME": "",
+          "LandPro08:LU": "",
+          "LandPro08:LU_NAME": "",
+          "landuse": "",
+          "cuisine": "",
+          "wheelchair": "",
+          "smoking": "",
+          "religion": "",
+          "denomination": "",
+          "gatech:TYPE": "",
+          "owner": "",
+          "capacity": "",
+          "gatech:ATL_BLDG_": "",
+          "gatech:ATL_BLDG_I": "",
+          "gatech:PERIMETER": "",
+          "gatech:Reference_": "",
+          "supervised": "",
+          "attribution": "",
+          "roof:levels": "",
+          "park_ride": "",
+          "surface": "",
+          "description": "",
+          "gatech:UNDERGROUND": "",
+          "gatech:OBJECTID_2": "",
+          "gatech:SHAPE_LENG": "",
+          "roof:shape": "",
+          "lit": "",
+          "tourism": "",
+          "layer": "",
+          "building:height": "",
+          "highway": "",
+          "drinkable": "",
+          "foot": "",
+          "step_count": "",
+          "shop": "",
+          "gnis:county_id": "",
+          "gnis:created": "",
+          "gnis:state_id": "",
+          "social_facility:for": "",
+          "contact:facebook": "",
+          "contact:twitter": "",
+          "building:part": "",
+          "lanes": "",
+          "delivery": "",
+          "natural": "",
+          "email": "",
+          "floor_area": 26180,
+          "footprint_area": 6545,
+          "number_of_stories": 4,
+          "template": "DOE Ref 1980-2004",
+          "building_type": "Multifamily (5 or more units)",
+          "system_type": "Fan coil air-cooled chiller with boiler",
+          "year_built": 2004
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -84.3963736,
+                33.7829913
+              ],
+              [
+                -84.3963537,
+                33.7829748
+              ],
+              [
+                -84.3963432,
+                33.782966
+              ],
+              [
+                -84.3963546,
+                33.7829564
+              ],
+              [
+                -84.3963317,
+                33.7829374
+              ],
+              [
+                -84.3963292,
+                33.7829395
+              ],
+              [
+                -84.3963124,
+                33.7829255
+              ],
+              [
+                -84.3963043,
+                33.7829323
+              ],
+              [
+                -84.3962953,
+                33.7829247
+              ],
+              [
+                -84.3962839,
+                33.7829153
+              ],
+              [
+                -84.3962749,
+                33.7829078
+              ],
+              [
+                -84.396283,
+                33.782901
+              ],
+              [
+                -84.3962661,
+                33.7828869
+              ],
+              [
+                -84.3962685,
+                33.7828848
+              ],
+              [
+                -84.3962457,
+                33.7828659
+              ],
+              [
+                -84.3962345,
+                33.7828754
+              ],
+              [
+                -84.3962044,
+                33.7828504
+              ],
+              [
+                -84.3962342,
+                33.7828255
+              ],
+              [
+                -84.3962068,
+                33.7828023
+              ],
+              [
+                -84.3961768,
+                33.7828273
+              ],
+              [
+                -84.3961469,
+                33.7828024
+              ],
+              [
+                -84.3961582,
+                33.782793
+              ],
+              [
+                -84.3961355,
+                33.782774
+              ],
+              [
+                -84.3961331,
+                33.782776
+              ],
+              [
+                -84.3961161,
+                33.7827621
+              ],
+              [
+                -84.396108,
+                33.7827687
+              ],
+              [
+                -84.3960939,
+                33.7827569
+              ],
+              [
+                -84.3960787,
+                33.7827443
+              ],
+              [
+                -84.3960991,
+                33.7827272
+              ],
+              [
+                -84.3960748,
+                33.782707
+              ],
+              [
+                -84.3960903,
+                33.7826941
+              ],
+              [
+                -84.3960601,
+                33.7826692
+              ],
+              [
+                -84.3960903,
+                33.782644
+              ],
+              [
+                -84.3961013,
+                33.7826532
+              ],
+              [
+                -84.3961243,
+                33.7826345
+              ],
+              [
+                -84.3961218,
+                33.7826324
+              ],
+              [
+                -84.396141,
+                33.7826162
+              ],
+              [
+                -84.3961363,
+                33.7826122
+              ],
+              [
+                -84.3961509,
+                33.7825999
+              ],
+              [
+                -84.3961588,
+                33.7825931
+              ],
+              [
+                -84.3961772,
+                33.7825771
+              ],
+              [
+                -84.3961588,
+                33.782562
+              ],
+              [
+                -84.396177,
+                33.7825455
+              ],
+              [
+                -84.3962001,
+                33.7825235
+              ],
+              [
+                -84.3961919,
+                33.7825167
+              ],
+              [
+                -84.3962157,
+                33.7824967
+              ],
+              [
+                -84.3962211,
+                33.7824923
+              ],
+              [
+                -84.3962292,
+                33.7824988
+              ],
+              [
+                -84.3962462,
+                33.7824849
+              ],
+              [
+                -84.3962486,
+                33.7824869
+              ],
+              [
+                -84.3962713,
+                33.7824679
+              ],
+              [
+                -84.39626,
+                33.7824587
+              ],
+              [
+                -84.3962898,
+                33.7824335
+              ],
+              [
+                -84.3963198,
+                33.7824585
+              ],
+              [
+                -84.3963352,
+                33.7824456
+              ],
+              [
+                -84.396392,
+                33.7824929
+              ],
+              [
+                -84.3963771,
+                33.7825056
+              ],
+              [
+                -84.3964069,
+                33.7825305
+              ],
+              [
+                -84.3963768,
+                33.7825558
+              ],
+              [
+                -84.3963659,
+                33.7825465
+              ],
+              [
+                -84.3963427,
+                33.7825653
+              ],
+              [
+                -84.3963451,
+                33.7825674
+              ],
+              [
+                -84.3963006,
+                33.7826045
+              ],
+              [
+                -84.396282,
+                33.7826201
+              ],
+              [
+                -84.3962796,
+                33.7826181
+              ],
+              [
+                -84.396268,
+                33.7826278
+              ],
+              [
+                -84.3962532,
+                33.7826405
+              ],
+              [
+                -84.3962343,
+                33.7826249
+              ],
+              [
+                -84.3961974,
+                33.7826557
+              ],
+              [
+                -84.3962069,
+                33.7826638
+              ],
+              [
+                -84.3962016,
+                33.7826682
+              ],
+              [
+                -84.3962318,
+                33.7826931
+              ],
+              [
+                -84.3962296,
+                33.7826951
+              ],
+              [
+                -84.3962524,
+                33.7827141
+              ],
+              [
+                -84.3962635,
+                33.7827049
+              ],
+              [
+                -84.3962936,
+                33.7827299
+              ],
+              [
+                -84.3962635,
+                33.7827549
+              ],
+              [
+                -84.3962915,
+                33.7827783
+              ],
+              [
+                -84.3963215,
+                33.7827532
+              ],
+              [
+                -84.3963515,
+                33.7827781
+              ],
+              [
+                -84.3963402,
+                33.782788
+              ],
+              [
+                -84.3963638,
+                33.782807
+              ],
+              [
+                -84.3963654,
+                33.7828057
+              ],
+              [
+                -84.3963882,
+                33.7828246
+              ],
+              [
+                -84.3963768,
+                33.7828342
+              ],
+              [
+                -84.3963873,
+                33.7828429
+              ],
+              [
+                -84.396394,
+                33.7828485
+              ],
+              [
+                -84.3964054,
+                33.782839
+              ],
+              [
+                -84.3964281,
+                33.7828579
+              ],
+              [
+                -84.3964266,
+                33.7828593
+              ],
+              [
+                -84.3964492,
+                33.782878
+              ],
+              [
+                -84.3964601,
+                33.7828686
+              ],
+              [
+                -84.3964902,
+                33.7828938
+              ],
+              [
+                -84.3964602,
+                33.7829189
+              ],
+              [
+                -84.3964756,
+                33.7829317
+              ],
+              [
+                -84.396419,
+                33.782979
+              ],
+              [
+                -84.3964037,
+                33.7829662
+              ],
+              [
+                -84.3963736,
+                33.7829913
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "11",
+          "osm_id": "42796728",
+          "osm_type": "relation",
+          "amenity": "",
+          "location": "",
+          "type": "Building",
+          "gatech:LASTUPDATE": "",
+          "gatech:SUBTYPE": "",
+          "gatech:PRKG_NUM": "",
+          "parking": "",
+          "motor_vehicle": "",
+          "access": "",
+          "ownership": "",
+          "gatech:BLDG_NAME": "",
+          "gatech:BLDG_NUM": "167",
+          "gatech:BLDG_TYPE": "",
+          "leisure": "",
+          "name": "Glen P. Robinson, Jr. Building",
+          "sport": "",
+          "addr:city": "",
+          "addr:housenumber": "",
+          "addr:postcode": "",
+          "addr:street": "",
+          "building": "yes",
+          "short_name": "Robinson (MS&E)",
+          "building:levels": "",
+          "gatech:GlobalID": "",
+          "gatech:OBJECTID": "",
+          "gatech:UNDERGROUN": "",
+          "loc_name": "Robinson Molecular Science & Engineering",
+          "private": "",
+          "level": "",
+          "alt_name": "",
+          "wikidata": "",
+          "addr:country": "",
+          "opening_hours": "",
+          "old_name": "",
+          "fee": "",
+          "internet_access": "",
+          "wikipedia": "",
+          "beds": "",
+          "contact:phone": "",
+          "contact:website": "",
+          "emergency": "",
+          "gnis:feature_id": "",
+          "operator": "",
+          "phone": "",
+          "website": "",
+          "designation": "",
+          "ele": "",
+          "gnis:county_name": "",
+          "gnis:import_uuid": "",
+          "gnis:reviewed": "",
+          "addr:state": "",
+          "height": "",
+          "LandPro08:DE3": "",
+          "LandPro08:DE5": "",
+          "LandPro08:LC": "",
+          "LandPro08:LCLU": "",
+          "LandPro08:LC_NAME": "",
+          "LandPro08:LU": "",
+          "LandPro08:LU_NAME": "",
+          "landuse": "",
+          "cuisine": "",
+          "wheelchair": "",
+          "smoking": "",
+          "religion": "",
+          "denomination": "",
+          "gatech:TYPE": "",
+          "owner": "",
+          "capacity": "",
+          "gatech:ATL_BLDG_": "",
+          "gatech:ATL_BLDG_I": "",
+          "gatech:PERIMETER": "",
+          "gatech:Reference_": "",
+          "supervised": "",
+          "attribution": "",
+          "roof:levels": "",
+          "park_ride": "",
+          "surface": "",
+          "description": "",
+          "gatech:UNDERGROUND": "",
+          "gatech:OBJECTID_2": "",
+          "gatech:SHAPE_LENG": "",
+          "roof:shape": "",
+          "lit": "",
+          "tourism": "",
+          "layer": "",
+          "building:height": "",
+          "highway": "",
+          "drinkable": "",
+          "foot": "",
+          "step_count": "",
+          "shop": "",
+          "gnis:county_id": "",
+          "gnis:created": "",
+          "gnis:state_id": "",
+          "social_facility:for": "",
+          "contact:facebook": "",
+          "contact:twitter": "",
+          "building:part": "",
+          "lanes": "",
+          "delivery": "",
+          "natural": "",
+          "email": "",
+          "building_type": "Education",
+          "number_of_stories": 5,
+          "template": "90.1-2004",
+          "floor_area": 232129,
+          "footprint_area": 46425.8,
+          "year_built": 2006,
+          "system_type": "VAV district chilled water with gas coil reheat"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -84.3965863,
+                33.7800569
+              ],
+              [
+                -84.3965083,
+                33.7800512
+              ],
+              [
+                -84.396508,
+                33.7800533
+              ],
+              [
+                -84.3964461,
+                33.7800487
+              ],
+              [
+                -84.3964518,
+                33.7799958
+              ],
+              [
+                -84.3964544,
+                33.7799959
+              ],
+              [
+                -84.396455,
+                33.7799895
+              ],
+              [
+                -84.3963957,
+                33.7799892
+              ],
+              [
+                -84.3963957,
+                33.7799915
+              ],
+              [
+                -84.3959356,
+                33.779989
+              ],
+              [
+                -84.3959362,
+                33.7799423
+              ],
+              [
+                -84.3959386,
+                33.7799423
+              ],
+              [
+                -84.3959388,
+                33.7799162
+              ],
+              [
+                -84.3959064,
+                33.779916
+              ],
+              [
+                -84.3959064,
+                33.7799216
+              ],
+              [
+                -84.3958987,
+                33.7799215
+              ],
+              [
+                -84.3958988,
+                33.779916
+              ],
+              [
+                -84.3958996,
+                33.7798122
+              ],
+              [
+                -84.3958996,
+                33.7798061
+              ],
+              [
+                -84.3959074,
+                33.7798062
+              ],
+              [
+                -84.3959073,
+                33.7798135
+              ],
+              [
+                -84.3959396,
+                33.7798136
+              ],
+              [
+                -84.3959403,
+                33.7797263
+              ],
+              [
+                -84.3959416,
+                33.7797263
+              ],
+              [
+                -84.3959418,
+                33.7797048
+              ],
+              [
+                -84.3959964,
+                33.7797048
+              ],
+              [
+                -84.3959966,
+                33.7796757
+              ],
+              [
+                -84.3964601,
+                33.7796782
+              ],
+              [
+                -84.3964398,
+                33.7796354
+              ],
+              [
+                -84.3965111,
+                33.7796124
+              ],
+              [
+                -84.3965289,
+                33.7796513
+              ],
+              [
+                -84.3965327,
+                33.7796611
+              ],
+              [
+                -84.3965392,
+                33.7796798
+              ],
+              [
+                -84.3965447,
+                33.7796931
+              ],
+              [
+                -84.3965596,
+                33.7797424
+              ],
+              [
+                -84.3965653,
+                33.7797617
+              ],
+              [
+                -84.396569,
+                33.7797787
+              ],
+              [
+                -84.3965743,
+                33.7797998
+              ],
+              [
+                -84.3965772,
+                33.779817
+              ],
+              [
+                -84.3965977,
+                33.7798167
+              ],
+              [
+                -84.3966174,
+                33.7798153
+              ],
+              [
+                -84.396739,
+                33.779815
+              ],
+              [
+                -84.3967381,
+                33.779706
+              ],
+              [
+                -84.3967944,
+                33.7797052
+              ],
+              [
+                -84.3967959,
+                33.779677
+              ],
+              [
+                -84.3973953,
+                33.7796834
+              ],
+              [
+                -84.3973951,
+                33.7797124
+              ],
+              [
+                -84.3974496,
+                33.7797127
+              ],
+              [
+                -84.3974495,
+                33.7797345
+              ],
+              [
+                -84.3974508,
+                33.7797345
+              ],
+              [
+                -84.3974501,
+                33.7798219
+              ],
+              [
+                -84.3974825,
+                33.7798221
+              ],
+              [
+                -84.3974825,
+                33.7798147
+              ],
+              [
+                -84.3974902,
+                33.7798148
+              ],
+              [
+                -84.3974893,
+                33.7799301
+              ],
+              [
+                -84.3974816,
+                33.7799301
+              ],
+              [
+                -84.3974818,
+                33.7799246
+              ],
+              [
+                -84.3974493,
+                33.7799244
+              ],
+              [
+                -84.3974491,
+                33.7799505
+              ],
+              [
+                -84.3974519,
+                33.7799506
+              ],
+              [
+                -84.3974515,
+                33.7799973
+              ],
+              [
+                -84.3969258,
+                33.7799944
+              ],
+              [
+                -84.3969258,
+                33.7799921
+              ],
+              [
+                -84.3968359,
+                33.7799916
+              ],
+              [
+                -84.3968361,
+                33.779968
+              ],
+              [
+                -84.396591,
+                33.7799667
+              ],
+              [
+                -84.3965895,
+                33.7800193
+              ],
+              [
+                -84.3965863,
+                33.7800569
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "8",
+          "osm_id": "42796800",
+          "osm_type": "relation",
+          "amenity": "",
+          "location": "",
+          "type": "Building",
+          "gatech:LASTUPDATE": "",
+          "gatech:SUBTYPE": "",
+          "gatech:PRKG_NUM": "",
+          "parking": "",
+          "motor_vehicle": "",
+          "access": "",
+          "ownership": "",
+          "gatech:BLDG_NAME": "",
+          "gatech:BLDG_NUM": "147",
+          "gatech:BLDG_TYPE": "Academic/Research",
+          "leisure": "",
+          "name": "Ford Motor Company Environmental Science and Technology Building",
+          "sport": "",
+          "addr:city": "",
+          "addr:housenumber": "",
+          "addr:postcode": "",
+          "addr:street": "",
+          "building": "yes",
+          "short_name": "Ford ES&T",
+          "building:levels": "",
+          "gatech:GlobalID": "",
+          "gatech:OBJECTID": "",
+          "gatech:UNDERGROUN": "",
+          "loc_name": "Ford Environmental Science and Technology Building",
+          "private": "",
+          "level": "",
+          "alt_name": "",
+          "wikidata": "",
+          "addr:country": "",
+          "opening_hours": "",
+          "old_name": "",
+          "fee": "",
+          "internet_access": "",
+          "wikipedia": "",
+          "beds": "",
+          "contact:phone": "",
+          "contact:website": "",
+          "emergency": "",
+          "gnis:feature_id": "",
+          "operator": "",
+          "phone": "",
+          "website": "",
+          "designation": "",
+          "ele": "",
+          "gnis:county_name": "",
+          "gnis:import_uuid": "",
+          "gnis:reviewed": "",
+          "addr:state": "",
+          "height": "",
+          "LandPro08:DE3": "",
+          "LandPro08:DE5": "",
+          "LandPro08:LC": "",
+          "LandPro08:LCLU": "",
+          "LandPro08:LC_NAME": "",
+          "LandPro08:LU": "",
+          "LandPro08:LU_NAME": "",
+          "landuse": "",
+          "cuisine": "",
+          "wheelchair": "",
+          "smoking": "",
+          "religion": "",
+          "denomination": "",
+          "gatech:TYPE": "",
+          "owner": "",
+          "capacity": "",
+          "gatech:ATL_BLDG_": "",
+          "gatech:ATL_BLDG_I": "",
+          "gatech:PERIMETER": "",
+          "gatech:Reference_": "",
+          "supervised": "",
+          "attribution": "",
+          "roof:levels": "",
+          "park_ride": "",
+          "surface": "",
+          "description": "",
+          "gatech:UNDERGROUND": "",
+          "gatech:OBJECTID_2": "",
+          "gatech:SHAPE_LENG": "",
+          "roof:shape": "",
+          "lit": "",
+          "tourism": "",
+          "layer": "",
+          "building:height": "",
+          "highway": "",
+          "drinkable": "",
+          "foot": "",
+          "step_count": "",
+          "shop": "",
+          "gnis:county_id": "",
+          "gnis:created": "",
+          "gnis:state_id": "",
+          "social_facility:for": "",
+          "contact:facebook": "",
+          "contact:twitter": "",
+          "building:part": "",
+          "lanes": "",
+          "delivery": "",
+          "natural": "",
+          "email": "",
+          "building_type": "Education",
+          "number_of_stories": 6,
+          "template": "DOE Ref 1980-2004",
+          "floor_area": 230798,
+          "footprint_area": 38466.3,
+          "year_built": 2002,
+          "system_type": "VAV district chilled water with gas coil reheat"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -84.3963819,
+                33.7795466
+              ],
+              [
+                -84.3963617,
+                33.7795161
+              ],
+              [
+                -84.3963335,
+                33.779528
+              ],
+              [
+                -84.3963017,
+                33.7795355
+              ],
+              [
+                -84.3962723,
+                33.7795394
+              ],
+              [
+                -84.3962387,
+                33.7795415
+              ],
+              [
+                -84.3962057,
+                33.7795357
+              ],
+              [
+                -84.3961733,
+                33.7795293
+              ],
+              [
+                -84.3961462,
+                33.779519
+              ],
+              [
+                -84.3961073,
+                33.7794955
+              ],
+              [
+                -84.3961342,
+                33.7794306
+              ],
+              [
+                -84.3961584,
+                33.7794306
+              ],
+              [
+                -84.3961562,
+                33.7794135
+              ],
+              [
+                -84.3961493,
+                33.7794134
+              ],
+              [
+                -84.3961493,
+                33.7794152
+              ],
+              [
+                -84.396134,
+                33.7794151
+              ],
+              [
+                -84.3961339,
+                33.7794133
+              ],
+              [
+                -84.3961077,
+                33.7794132
+              ],
+              [
+                -84.3960835,
+                33.7794131
+              ],
+              [
+                -84.3960835,
+                33.7794149
+              ],
+              [
+                -84.3960681,
+                33.7794149
+              ],
+              [
+                -84.3960681,
+                33.779413
+              ],
+              [
+                -84.3960178,
+                33.7794128
+              ],
+              [
+                -84.3960176,
+                33.7794146
+              ],
+              [
+                -84.3960071,
+                33.7794145
+              ],
+              [
+                -84.3960022,
+                33.7794145
+              ],
+              [
+                -84.3960022,
+                33.7794063
+              ],
+              [
+                -84.3960054,
+                33.7794063
+              ],
+              [
+                -84.3960057,
+                33.7793861
+              ],
+              [
+                -84.3959893,
+                33.7793861
+              ],
+              [
+                -84.3959887,
+                33.7793891
+              ],
+              [
+                -84.3959865,
+                33.7793936
+              ],
+              [
+                -84.3959826,
+                33.7793978
+              ],
+              [
+                -84.3959776,
+                33.779401
+              ],
+              [
+                -84.3959716,
+                33.7794029
+              ],
+              [
+                -84.3959654,
+                33.7794036
+              ],
+              [
+                -84.3959592,
+                33.7794028
+              ],
+              [
+                -84.3959534,
+                33.7794008
+              ],
+              [
+                -84.3959488,
+                33.7793979
+              ],
+              [
+                -84.3959446,
+                33.7793934
+              ],
+              [
+                -84.3959423,
+                33.7793885
+              ],
+              [
+                -84.3959415,
+                33.7793837
+              ],
+              [
+                -84.3959416,
+                33.7793537
+              ],
+              [
+                -84.3959418,
+                33.7793333
+              ],
+              [
+                -84.3958981,
+                33.7793331
+              ],
+              [
+                -84.3958981,
+                33.7793337
+              ],
+              [
+                -84.3958827,
+                33.7793337
+              ],
+              [
+                -84.3958827,
+                33.7793321
+              ],
+              [
+                -84.3958323,
+                33.7793319
+              ],
+              [
+                -84.3958322,
+                33.7793335
+              ],
+              [
+                -84.3958168,
+                33.7793334
+              ],
+              [
+                -84.3958168,
+                33.7793318
+              ],
+              [
+                -84.3957664,
+                33.7793316
+              ],
+              [
+                -84.3957663,
+                33.779335
+              ],
+              [
+                -84.3957586,
+                33.779335
+              ],
+              [
+                -84.3957586,
+                33.779334
+              ],
+              [
+                -84.3957509,
+                33.779334
+              ],
+              [
+                -84.3957509,
+                33.7793322
+              ],
+              [
+                -84.3957476,
+                33.7793322
+              ],
+              [
+                -84.3957476,
+                33.7793315
+              ],
+              [
+                -84.3957422,
+                33.7793315
+              ],
+              [
+                -84.3957003,
+                33.7793319
+              ],
+              [
+                -84.3957004,
+                33.7793337
+              ],
+              [
+                -84.3956927,
+                33.7793337
+              ],
+              [
+                -84.3956927,
+                33.7793347
+              ],
+              [
+                -84.3956852,
+                33.7793346
+              ],
+              [
+                -84.3956853,
+                33.7793315
+              ],
+              [
+                -84.3956853,
+                33.7793264
+              ],
+              [
+                -84.3956886,
+                33.7793264
+              ],
+              [
+                -84.3956888,
+                33.7792991
+              ],
+              [
+                -84.3956748,
+                33.779299
+              ],
+              [
+                -84.3956749,
+                33.7792839
+              ],
+              [
+                -84.3956442,
+                33.7792837
+              ],
+              [
+                -84.3956442,
+                33.7792863
+              ],
+              [
+                -84.3956343,
+                33.7792862
+              ],
+              [
+                -84.3956344,
+                33.7792734
+              ],
+              [
+                -84.3956365,
+                33.7792733
+              ],
+              [
+                -84.3956365,
+                33.7792445
+              ],
+              [
+                -84.3956345,
+                33.7792445
+              ],
+              [
+                -84.3956346,
+                33.7792317
+              ],
+              [
+                -84.3956369,
+                33.7792317
+              ],
+              [
+                -84.395637,
+                33.7792033
+              ],
+              [
+                -84.3956348,
+                33.7792032
+              ],
+              [
+                -84.3956349,
+                33.7791904
+              ],
+              [
+                -84.3956371,
+                33.7791903
+              ],
+              [
+                -84.3956374,
+                33.7791619
+              ],
+              [
+                -84.3956351,
+                33.7791619
+              ],
+              [
+                -84.3956352,
+                33.7791491
+              ],
+              [
+                -84.3956371,
+                33.7791491
+              ],
+              [
+                -84.3956376,
+                33.7791204
+              ],
+              [
+                -84.3956354,
+                33.7791204
+              ],
+              [
+                -84.3956355,
+                33.7791076
+              ],
+              [
+                -84.3956453,
+                33.7791076
+              ],
+              [
+                -84.3956453,
+                33.7791105
+              ],
+              [
+                -84.3956761,
+                33.7791105
+              ],
+              [
+                -84.3956762,
+                33.7790952
+              ],
+              [
+                -84.3956896,
+                33.7790952
+              ],
+              [
+                -84.3956899,
+                33.77907
+              ],
+              [
+                -84.3956865,
+                33.7790698
+              ],
+              [
+                -84.3956866,
+                33.7790615
+              ],
+              [
+                -84.3957019,
+                33.7790616
+              ],
+              [
+                -84.3957019,
+                33.7790634
+              ],
+              [
+                -84.3957118,
+                33.7790634
+              ],
+              [
+                -84.3957527,
+                33.7790637
+              ],
+              [
+                -84.3957527,
+                33.7790618
+              ],
+              [
+                -84.3957681,
+                33.7790619
+              ],
+              [
+                -84.3957681,
+                33.7790638
+              ],
+              [
+                -84.3958187,
+                33.7790639
+              ],
+              [
+                -84.3958187,
+                33.7790622
+              ],
+              [
+                -84.395834,
+                33.7790622
+              ],
+              [
+                -84.395834,
+                33.779064
+              ],
+              [
+                -84.3958422,
+                33.7790641
+              ],
+              [
+                -84.3958848,
+                33.7790643
+              ],
+              [
+                -84.3958848,
+                33.7790624
+              ],
+              [
+                -84.3959002,
+                33.7790626
+              ],
+              [
+                -84.3959002,
+                33.779057
+              ],
+              [
+                -84.3959026,
+                33.7790571
+              ],
+              [
+                -84.3959028,
+                33.7790146
+              ],
+              [
+                -84.3959006,
+                33.7790146
+              ],
+              [
+                -84.3959007,
+                33.7790011
+              ],
+              [
+                -84.3959102,
+                33.7790011
+              ],
+              [
+                -84.3959104,
+                33.7790038
+              ],
+              [
+                -84.3959229,
+                33.7790039
+              ],
+              [
+                -84.395923,
+                33.7789764
+              ],
+              [
+                -84.3959217,
+                33.7789764
+              ],
+              [
+                -84.3959217,
+                33.7789664
+              ],
+              [
+                -84.3958402,
+                33.7789504
+              ],
+              [
+                -84.3957717,
+                33.7789042
+              ],
+              [
+                -84.3957339,
+                33.7788378
+              ],
+              [
+                -84.3957344,
+                33.7787644
+              ],
+              [
+                -84.3957349,
+                33.7787637
+              ],
+              [
+                -84.3957731,
+                33.7786984
+              ],
+              [
+                -84.3958422,
+                33.7786528
+              ],
+              [
+                -84.395924,
+                33.7786376
+              ],
+              [
+                -84.395924,
+                33.7786278
+              ],
+              [
+                -84.3959254,
+                33.7786278
+              ],
+              [
+                -84.3959255,
+                33.7786001
+              ],
+              [
+                -84.395913,
+                33.7786001
+              ],
+              [
+                -84.3959129,
+                33.7786028
+              ],
+              [
+                -84.3959033,
+                33.7786028
+              ],
+              [
+                -84.3959034,
+                33.7785892
+              ],
+              [
+                -84.3959056,
+                33.7785893
+              ],
+              [
+                -84.3959059,
+                33.7785468
+              ],
+              [
+                -84.3959037,
+                33.7785468
+              ],
+              [
+                -84.3959038,
+                33.7785413
+              ],
+              [
+                -84.3958883,
+                33.7785412
+              ],
+              [
+                -84.3958883,
+                33.7785395
+              ],
+              [
+                -84.3958463,
+                33.7785392
+              ],
+              [
+                -84.3958375,
+                33.7785392
+              ],
+              [
+                -84.3958375,
+                33.778541
+              ],
+              [
+                -84.3958227,
+                33.7785409
+              ],
+              [
+                -84.3958229,
+                33.7785391
+              ],
+              [
+                -84.3957718,
+                33.7785388
+              ],
+              [
+                -84.3957717,
+                33.7785406
+              ],
+              [
+                -84.3957562,
+                33.7785406
+              ],
+              [
+                -84.3957562,
+                33.7785389
+              ],
+              [
+                -84.3957054,
+                33.7785384
+              ],
+              [
+                -84.3957054,
+                33.7785404
+              ],
+              [
+                -84.3956901,
+                33.7785403
+              ],
+              [
+                -84.3956901,
+                33.778532
+              ],
+              [
+                -84.3956935,
+                33.778532
+              ],
+              [
+                -84.3956936,
+                33.7785066
+              ],
+              [
+                -84.3956801,
+                33.7785065
+              ],
+              [
+                -84.3956802,
+                33.7784912
+              ],
+              [
+                -84.3956495,
+                33.7784911
+              ],
+              [
+                -84.3956494,
+                33.7784938
+              ],
+              [
+                -84.3956396,
+                33.7784937
+              ],
+              [
+                -84.3956408,
+                33.7783151
+              ],
+              [
+                -84.3956507,
+                33.7783152
+              ],
+              [
+                -84.3956506,
+                33.7783179
+              ],
+              [
+                -84.3956814,
+                33.7783178
+              ],
+              [
+                -84.3956816,
+                33.7783028
+              ],
+              [
+                -84.3956955,
+                33.7783029
+              ],
+              [
+                -84.3956957,
+                33.7782752
+              ],
+              [
+                -84.3956924,
+                33.7782752
+              ],
+              [
+                -84.3956924,
+                33.778267
+              ],
+              [
+                -84.3956999,
+                33.778267
+              ],
+              [
+                -84.3956999,
+                33.7782682
+              ],
+              [
+                -84.3957075,
+                33.7782682
+              ],
+              [
+                -84.3957075,
+                33.7782699
+              ],
+              [
+                -84.3957109,
+                33.77827
+              ],
+              [
+                -84.3957108,
+                33.778271
+              ],
+              [
+                -84.3957548,
+                33.7782712
+              ],
+              [
+                -84.3957548,
+                33.7782703
+              ],
+              [
+                -84.3957583,
+                33.7782703
+              ],
+              [
+                -84.3957583,
+                33.7782684
+              ],
+              [
+                -84.3957661,
+                33.7782685
+              ],
+              [
+                -84.395766,
+                33.7782676
+              ],
+              [
+                -84.3957735,
+                33.7782676
+              ],
+              [
+                -84.3957734,
+                33.7782712
+              ],
+              [
+                -84.395824,
+                33.7782715
+              ],
+              [
+                -84.395824,
+                33.7782697
+              ],
+              [
+                -84.3958394,
+                33.7782697
+              ],
+              [
+                -84.3958394,
+                33.7782716
+              ],
+              [
+                -84.3958416,
+                33.7782716
+              ],
+              [
+                -84.3958899,
+                33.7782718
+              ],
+              [
+                -84.3958899,
+                33.7782699
+              ],
+              [
+                -84.3959053,
+                33.77827
+              ],
+              [
+                -84.3959053,
+                33.7782719
+              ],
+              [
+                -84.3959558,
+                33.7782721
+              ],
+              [
+                -84.3959558,
+                33.7782703
+              ],
+              [
+                -84.3959711,
+                33.7782703
+              ],
+              [
+                -84.3959711,
+                33.7782786
+              ],
+              [
+                -84.3959678,
+                33.7782786
+              ],
+              [
+                -84.3959677,
+                33.7782988
+              ],
+              [
+                -84.3959841,
+                33.7782988
+              ],
+              [
+                -84.3959845,
+                33.7782962
+              ],
+              [
+                -84.3959869,
+                33.7782913
+              ],
+              [
+                -84.3959908,
+                33.7782871
+              ],
+              [
+                -84.3959955,
+                33.7782841
+              ],
+              [
+                -84.3960017,
+                33.778282
+              ],
+              [
+                -84.3960076,
+                33.7782813
+              ],
+              [
+                -84.3960144,
+                33.7782821
+              ],
+              [
+                -84.3960197,
+                33.7782838
+              ],
+              [
+                -84.3960252,
+                33.7782873
+              ],
+              [
+                -84.3960291,
+                33.7782915
+              ],
+              [
+                -84.3960312,
+                33.7782961
+              ],
+              [
+                -84.3960322,
+                33.7783015
+              ],
+              [
+                -84.3960318,
+                33.7783515
+              ],
+              [
+                -84.3960753,
+                33.7783518
+              ],
+              [
+                -84.3960753,
+                33.7783509
+              ],
+              [
+                -84.3960907,
+                33.7783509
+              ],
+              [
+                -84.3960906,
+                33.7783527
+              ],
+              [
+                -84.3961411,
+                33.778353
+              ],
+              [
+                -84.3961411,
+                33.7783511
+              ],
+              [
+                -84.3961566,
+                33.7783512
+              ],
+              [
+                -84.3961566,
+                33.7783531
+              ],
+              [
+                -84.3962071,
+                33.7783533
+              ],
+              [
+                -84.3962071,
+                33.7783496
+              ],
+              [
+                -84.3962148,
+                33.7783496
+              ],
+              [
+                -84.3962147,
+                33.7783506
+              ],
+              [
+                -84.3962224,
+                33.7783506
+              ],
+              [
+                -84.3962224,
+                33.7783526
+              ],
+              [
+                -84.3962257,
+                33.7783525
+              ],
+              [
+                -84.3962257,
+                33.7783535
+              ],
+              [
+                -84.3962697,
+                33.7783536
+              ],
+              [
+                -84.3962697,
+                33.7783526
+              ],
+              [
+                -84.396273,
+                33.7783527
+              ],
+              [
+                -84.396273,
+                33.7783509
+              ],
+              [
+                -84.3962806,
+                33.7783509
+              ],
+              [
+                -84.3962807,
+                33.77835
+              ],
+              [
+                -84.3962884,
+                33.77835
+              ],
+              [
+                -84.3962883,
+                33.7783537
+              ],
+              [
+                -84.3963087,
+                33.7783538
+              ],
+              [
+                -84.3963379,
+                33.7783539
+              ],
+              [
+                -84.3963376,
+                33.7783988
+              ],
+              [
+                -84.3963398,
+                33.7783988
+              ],
+              [
+                -84.3963397,
+                33.7784115
+              ],
+              [
+                -84.3963397,
+                33.7784148
+              ],
+              [
+                -84.3963386,
+                33.7785717
+              ],
+              [
+                -84.3963361,
+                33.7786218
+              ],
+              [
+                -84.3961549,
+                33.7786209
+              ],
+              [
+                -84.3961538,
+                33.7787844
+              ],
+              [
+                -84.396161,
+                33.7787826
+              ],
+              [
+                -84.3961654,
+                33.7787955
+              ],
+              [
+                -84.396172,
+                33.7788201
+              ],
+              [
+                -84.3961763,
+                33.7788451
+              ],
+              [
+                -84.3961775,
+                33.7788577
+              ],
+              [
+                -84.3961776,
+                33.7788582
+              ],
+              [
+                -84.3961786,
+                33.7788709
+              ],
+              [
+                -84.3961788,
+                33.7788828
+              ],
+              [
+                -84.3961788,
+                33.7788831
+              ],
+              [
+                -84.3961788,
+                33.7788836
+              ],
+              [
+                -84.3961783,
+                33.7788963
+              ],
+              [
+                -84.3961772,
+                33.778909
+              ],
+              [
+                -84.3961757,
+                33.7789214
+              ],
+              [
+                -84.3961737,
+                33.778934
+              ],
+              [
+                -84.3961713,
+                33.7789457
+              ],
+              [
+                -84.396168,
+                33.7789589
+              ],
+              [
+                -84.3961597,
+                33.7789839
+              ],
+              [
+                -84.3961524,
+                33.778982
+              ],
+              [
+                -84.3961524,
+                33.7789853
+              ],
+              [
+                -84.3961522,
+                33.7790207
+              ],
+              [
+                -84.3961514,
+                33.7791456
+              ],
+              [
+                -84.3963326,
+                33.7791464
+              ],
+              [
+                -84.3963332,
+                33.7794088
+              ],
+              [
+                -84.3964437,
+                33.7794094
+              ],
+              [
+                -84.3964482,
+                33.7794179
+              ],
+              [
+                -84.3964848,
+                33.7794871
+              ],
+              [
+                -84.3964687,
+                33.7794955
+              ],
+              [
+                -84.3964542,
+                33.7795032
+              ],
+              [
+                -84.3964589,
+                33.7795125
+              ],
+              [
+                -84.3963819,
+                33.7795466
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "3",
+          "osm_id": "42831047",
+          "osm_type": "relation",
+          "amenity": "",
+          "location": "",
+          "type": "Building",
+          "gatech:LASTUPDATE": "",
+          "gatech:SUBTYPE": "",
+          "gatech:PRKG_NUM": "",
+          "parking": "",
+          "motor_vehicle": "",
+          "access": "",
+          "ownership": "",
+          "gatech:BLDG_NAME": "",
+          "gatech:BLDG_NUM": "45",
+          "gatech:BLDG_TYPE": "Academic/Research",
+          "leisure": "",
+          "name": "Coon Building",
+          "sport": "",
+          "addr:city": "",
+          "addr:housenumber": "",
+          "addr:postcode": "",
+          "addr:street": "",
+          "building": "yes",
+          "short_name": "Coon (Psych)",
+          "building:levels": "",
+          "gatech:GlobalID": "",
+          "gatech:OBJECTID": "",
+          "gatech:UNDERGROUN": "",
+          "loc_name": "Coon Building (Psychology)",
+          "private": "",
+          "level": "",
+          "alt_name": "",
+          "wikidata": "",
+          "addr:country": "",
+          "opening_hours": "",
+          "old_name": "",
+          "fee": "",
+          "internet_access": "",
+          "wikipedia": "",
+          "beds": "",
+          "contact:phone": "",
+          "contact:website": "",
+          "emergency": "",
+          "gnis:feature_id": "",
+          "operator": "",
+          "phone": "",
+          "website": "",
+          "designation": "",
+          "ele": "",
+          "gnis:county_name": "",
+          "gnis:import_uuid": "",
+          "gnis:reviewed": "",
+          "addr:state": "",
+          "height": "",
+          "LandPro08:DE3": "",
+          "LandPro08:DE5": "",
+          "LandPro08:LC": "",
+          "LandPro08:LCLU": "",
+          "LandPro08:LC_NAME": "",
+          "LandPro08:LU": "",
+          "LandPro08:LU_NAME": "",
+          "landuse": "",
+          "cuisine": "",
+          "wheelchair": "",
+          "smoking": "",
+          "religion": "",
+          "denomination": "",
+          "gatech:TYPE": "",
+          "owner": "",
+          "capacity": "",
+          "gatech:ATL_BLDG_": "",
+          "gatech:ATL_BLDG_I": "",
+          "gatech:PERIMETER": "",
+          "gatech:Reference_": "",
+          "supervised": "",
+          "attribution": "",
+          "roof:levels": "",
+          "park_ride": "",
+          "surface": "",
+          "description": "",
+          "gatech:UNDERGROUND": "",
+          "gatech:OBJECTID_2": "",
+          "gatech:SHAPE_LENG": "",
+          "roof:shape": "",
+          "lit": "",
+          "tourism": "",
+          "layer": "",
+          "building:height": "",
+          "highway": "",
+          "drinkable": "",
+          "foot": "",
+          "step_count": "",
+          "shop": "",
+          "gnis:county_id": "",
+          "gnis:created": "",
+          "gnis:state_id": "",
+          "social_facility:for": "",
+          "contact:facebook": "",
+          "contact:twitter": "",
+          "building:part": "",
+          "lanes": "",
+          "delivery": "",
+          "natural": "",
+          "email": "",
+          "building_type": "Mixed use",
+          "number_of_stories": 5,
+          "mixed_type_1": "Education",
+          "mixed_type_2": "Office",
+          "mixed_type_2_percentage": 50,
+          "mixed_type_1_percentage": 50,
+          "template": "DOE Ref Pre-1980",
+          "system_type": "VAV district chilled water with district hot water reheat",
+          "floor_area": 62262,
+          "footprint_area": 12452.4,
+          "year_built": 1920
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -84.3956696,
+                33.7726017
+              ],
+              [
+                -84.3956235,
+                33.7726017
+              ],
+              [
+                -84.3956235,
+                33.7725368
+              ],
+              [
+                -84.3956234,
+                33.7724733
+              ],
+              [
+                -84.3960745,
+                33.7724737
+              ],
+              [
+                -84.3960747,
+                33.7726002
+              ],
+              [
+                -84.3960714,
+                33.7726002
+              ],
+              [
+                -84.3960723,
+                33.7730814
+              ],
+              [
+                -84.3959269,
+                33.7730816
+              ],
+              [
+                -84.3959268,
+                33.7730526
+              ],
+              [
+                -84.3958838,
+                33.7730527
+              ],
+              [
+                -84.3958836,
+                33.7729616
+              ],
+              [
+                -84.3959266,
+                33.7729615
+              ],
+              [
+                -84.3959265,
+                33.7728492
+              ],
+              [
+                -84.3959017,
+                33.7728492
+              ],
+              [
+                -84.3959017,
+                33.7729059
+              ],
+              [
+                -84.3958676,
+                33.7729059
+              ],
+              [
+                -84.3958676,
+                33.7729025
+              ],
+              [
+                -84.3958673,
+                33.7728762
+              ],
+              [
+                -84.3958673,
+                33.7728691
+              ],
+              [
+                -84.3958675,
+                33.7728487
+              ],
+              [
+                -84.3958182,
+                33.7728488
+              ],
+              [
+                -84.3958187,
+                33.7731629
+              ],
+              [
+                -84.3958188,
+                33.7731931
+              ],
+              [
+                -84.3956704,
+                33.7731931
+              ],
+              [
+                -84.3956696,
+                33.7726017
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "15",
+          "osm_id": "560915363",
+          "osm_type": "relation",
+          "amenity": "",
+          "location": "",
+          "type": "Building",
+          "gatech:LASTUPDATE": "",
+          "gatech:SUBTYPE": "",
+          "gatech:PRKG_NUM": "",
+          "parking": "",
+          "motor_vehicle": "",
+          "access": "",
+          "ownership": "",
+          "gatech:BLDG_NAME": "",
+          "gatech:BLDG_NUM": "",
+          "gatech:BLDG_TYPE": "",
+          "leisure": "",
+          "name": "Rodger A. and Helen B. Krone Engineered Biosystems Building",
+          "sport": "",
+          "addr:city": "",
+          "addr:housenumber": "",
+          "addr:postcode": "",
+          "addr:street": "",
+          "building": "yes",
+          "short_name": "",
+          "building:levels": "",
+          "gatech:GlobalID": "",
+          "gatech:OBJECTID": "",
+          "gatech:UNDERGROUN": "",
+          "loc_name": "",
+          "private": "",
+          "level": "",
+          "alt_name": "",
+          "wikidata": "",
+          "addr:country": "",
+          "opening_hours": "",
+          "old_name": "",
+          "fee": "",
+          "internet_access": "",
+          "wikipedia": "",
+          "beds": "",
+          "contact:phone": "",
+          "contact:website": "",
+          "emergency": "",
+          "gnis:feature_id": "",
+          "operator": "",
+          "phone": "",
+          "website": "",
+          "designation": "",
+          "ele": "",
+          "gnis:county_name": "",
+          "gnis:import_uuid": "",
+          "gnis:reviewed": "",
+          "addr:state": "",
+          "height": "",
+          "LandPro08:DE3": "",
+          "LandPro08:DE5": "",
+          "LandPro08:LC": "",
+          "LandPro08:LCLU": "",
+          "LandPro08:LC_NAME": "",
+          "LandPro08:LU": "",
+          "LandPro08:LU_NAME": "",
+          "landuse": "",
+          "cuisine": "",
+          "wheelchair": "",
+          "smoking": "",
+          "religion": "",
+          "denomination": "",
+          "gatech:TYPE": "",
+          "owner": "",
+          "capacity": "",
+          "gatech:ATL_BLDG_": "",
+          "gatech:ATL_BLDG_I": "",
+          "gatech:PERIMETER": "",
+          "gatech:Reference_": "",
+          "supervised": "",
+          "attribution": "",
+          "roof:levels": "",
+          "park_ride": "",
+          "surface": "",
+          "description": "",
+          "gatech:UNDERGROUND": "",
+          "gatech:OBJECTID_2": "",
+          "gatech:SHAPE_LENG": "",
+          "roof:shape": "",
+          "lit": "",
+          "tourism": "",
+          "layer": "",
+          "building:height": "",
+          "highway": "",
+          "drinkable": "",
+          "foot": "",
+          "step_count": "",
+          "shop": "",
+          "gnis:county_id": "",
+          "gnis:created": "",
+          "gnis:state_id": "",
+          "social_facility:for": "",
+          "contact:facebook": "",
+          "contact:twitter": "",
+          "building:part": "",
+          "lanes": "",
+          "delivery": "",
+          "natural": "",
+          "email": "",
+          "building_type": "Mixed use",
+          "number_of_stories": 6,
+          "template": "90.1-2013",
+          "year_built": 2015,
+          "mixed_type_1": "Education",
+          "mixed_type_2": "Office",
+          "mixed_type_2_percentage": 50,
+          "mixed_type_1_percentage": 50,
+          "floor_area": 178798,
+          "footprint_area": 29799.67,
+          "system_type": "VAV district chilled water with gas coil reheat"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -84.3989426,
+                33.7809933
+              ],
+              [
+                -84.3988594,
+                33.7809933
+              ],
+              [
+                -84.3988594,
+                33.7810501
+              ],
+              [
+                -84.3986703,
+                33.781049
+              ],
+              [
+                -84.3986717,
+                33.7809554
+              ],
+              [
+                -84.3986985,
+                33.7809576
+              ],
+              [
+                -84.3986998,
+                33.7808461
+              ],
+              [
+                -84.3985671,
+                33.7808461
+              ],
+              [
+                -84.3985671,
+                33.780874
+              ],
+              [
+                -84.3982103,
+                33.7808773
+              ],
+              [
+                -84.3982103,
+                33.7808483
+              ],
+              [
+                -84.3978858,
+                33.7808539
+              ],
+              [
+                -84.3978844,
+                33.7807703
+              ],
+              [
+                -84.39793,
+                33.7807703
+              ],
+              [
+                -84.39793,
+                33.7807391
+              ],
+              [
+                -84.3978375,
+                33.7807369
+              ],
+              [
+                -84.3978388,
+                33.780612
+              ],
+              [
+                -84.3989399,
+                33.7806076
+              ],
+              [
+                -84.3989426,
+                33.7809933
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "mappers": [
+  
+    ],
+    "scenarios": [
+      {
+        "id": "dc4b2015-5765-4864-8a0e-988e23dc78d5",
+        "name": "New Scenario",
+        "feature_mappings": [
+  
+        ]
+      }
+    ]
+  }
+  
