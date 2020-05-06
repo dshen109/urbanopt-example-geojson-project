@@ -544,12 +544,13 @@ module URBANopt
             # calling create typical building the first time will create space types
             OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', '__SKIP__', false)
             OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'add_hvac', false, 'create_typical_building_from_model 1')
+            OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'system_type', system_type, 'create_typical_building_from_model 1')
 
             # create a blended space type for each story
-            OpenStudio::Extension.set_measure_argument(osw, 
-              'blended_space_type_from_model', '__SKIP__', false)
-            OpenStudio::Extension.set_measure_argument(osw, 
-            'blended_space_type_from_model', 'blend_method', 'Building Story')
+            #OpenStudio::Extension.set_measure_argument(osw, 
+#              'blended_space_type_from_model', '__SKIP__', false)
+            #OpenStudio::Extension.set_measure_argument(osw, 
+#            'blended_space_type_from_model', 'blend_method', 'Building Story')
 
             # create geometry for the desired feature, this will reuse blended space types in the model for each story and remove the bar geometry
             OpenStudio::Extension.set_measure_argument(osw, 'urban_geometry_creation', '__SKIP__', false)
@@ -558,8 +559,8 @@ module URBANopt
             OpenStudio::Extension.set_measure_argument(osw, 'urban_geometry_creation', 'surrounding_buildings', 'ShadingOnly')
                           
             # call create typical building a second time, do not touch space types, only add hvac
-            OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', '__SKIP__', false)
-            OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'system_type', system_type, 'create_typical_building_from_model 2')
+            #OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', '__SKIP__', false)
+            #OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'system_type', system_type, 'create_typical_building_from_model 2')
           end
 
           # call the default feature reporting measure
