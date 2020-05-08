@@ -542,8 +542,8 @@ module URBANopt
             end
 
             # calling create typical building the first time will create space types
-            OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', '__SKIP__', false)
-            OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'add_hvac', false, 'create_typical_building_from_model 1')
+            OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', '__SKIP__', false, 'create_typical_building_from_model 1')
+            OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'add_hvac', true, 'create_typical_building_from_model 1')
             OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'system_type', system_type, 'create_typical_building_from_model 1')
 
             # create a blended space type for each story

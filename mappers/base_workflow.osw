@@ -56,6 +56,14 @@
         "add_refrigeration": false,
         "add_hvac": true,
         "template": "90.1-2004",
+        "add_thermostat": true,
+        "add_constructions": true,
+        "add_space_type_loads": true,
+        "add_elevators": true,
+        "add_internal_mass": true,
+        "add_exterior_lights": true,
+        "add_exhaust": true,
+        "add_swh": true,
         "system_type": "Inferred"
       } 
     },{

@@ -477,7 +477,8 @@
           "building_type": "Education",
           "number_of_stories": 6,
           "template": "90.1-2010",
-          "floor_area": 188000
+          "floor_area": 188000,
+          "system_type": "VAV district chilled water with district hot water reheat"
         },
         "geometry": {
           "type": "Polygon",
@@ -1422,7 +1423,7 @@
           "building_type": "Mixed use",
           "number_of_stories": 3,
           "template": "DOE Ref 1980-2004",
-          "system_type": "PTAC with gas boiler",
+          "system_type": "PSZ-AC with gas coil",
           "mixed_type_1": "Education",
           "mixed_type_1_percentage": 50,
           "mixed_type_2": "Office",
