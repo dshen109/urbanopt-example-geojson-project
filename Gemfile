@@ -64,9 +64,9 @@ gem 'openstudio-standards', '0.2.10'
 
 #if allow_local && File.exists?('../urbanopt-geojson-gem')
   # gem 'openstudio-extension', github: 'NREL/OpenStudio-extension-gem', branch: 'develop'
-  gem 'urbanopt-geojson', path: '../urbanopt-geojson-gem'
+#  gem 'urbanopt-geojson', path: '../urbanopt-geojson-gem'
 #elsif allow_local
-#  gem 'urbanopt-geojson', github: 'URBANopt/urbanopt-geojson-gem', branch: 'gt_flex'
+  gem 'urbanopt-geojson', github: 'URBANopt/urbanopt-geojson-gem', branch: 'gt_flex'
 #else
 #  gem 'urbanopt-geojson', '0.2.0'
   # gem 'urbanopt-geojson', github: 'URBANopt/urbanopt-geojson-gem', branch: 'develop'
