@@ -413,9 +413,7 @@ module URBANopt
                 # Temporary fix for CEC climate zone:
                 cec_modified_zone = "CEC " + cec_climate_zone
                 OpenStudio::Extension.set_measure_argument(osw, 'create_bar_from_building_type_ratios', 'climate_zone', cec_modified_zone)
-                OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'climate_zone', cec_modified_zone, 'create_typical_building_from_model 1')
-                OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'climate_zone', cec_modified_zone, 'create_typical_building_from_model 2')
-
+                OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'climate_zone', cec_modified_zone, 'create_typical_building_from_model')
               end
             rescue
             end
@@ -454,7 +452,7 @@ module URBANopt
               weekday_start_time = feature.weekday_start_time
               if !feature.weekday_start_time.empty?
                 new_weekday_start_time = time_mapping(weekday_start_time)
-                OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'wkdy_op_hrs_start_time', new_weekday_start_time, 'create_typical_building_from_model 1')
+                OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'wkdy_op_hrs_start_time', new_weekday_start_time, 'create_typical_building_from_model')
               end
             rescue
             end
@@ -464,7 +462,7 @@ module URBANopt
               weekday_duration = feature.weekday_duration
               if !feature.weekday_duration.empty?
                 new_weekday_duration = time_mapping(weekday_duration)
-                OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'wkdy_op_hrs_duration', new_weekday_duration, 'create_typical_building_from_model 1')
+                OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'wkdy_op_hrs_duration', new_weekday_duration, 'create_typical_building_from_model')
               end
             rescue
             end
@@ -474,7 +472,7 @@ module URBANopt
               weekend_start_time = feature.weekend_start_time
               if !feature.weekend_start_time.empty?
                 new_weekend_start_time = time_mapping(weekend_start_time)
-                OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'wknd_op_hrs_start_time', new_weekend_start_time, 'create_typical_building_from_model 1')
+                OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'wknd_op_hrs_start_time', new_weekend_start_time, 'create_typical_building_from_model')
               end
             rescue
             end
@@ -484,7 +482,7 @@ module URBANopt
               weekend_duration = feature.weekend_duration
               if !feature.weekend_duration.empty?
                 new_weekend_duration = time_mapping(weekend_duration)
-                OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'wknd_op_hrs_duration', new_weekend_duration, 'create_typical_building_from_model 1')
+                OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'wknd_op_hrs_duration', new_weekend_duration, 'create_typical_building_from_model')
               end
             rescue
             end
@@ -503,8 +501,7 @@ module URBANopt
               
               if new_template
                 OpenStudio::Extension.set_measure_argument(osw, 'create_bar_from_building_type_ratios', 'template', new_template)
-                OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'template', new_template, 'create_typical_building_from_model 1')
-                OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'template', new_template, 'create_typical_building_from_model 2')
+                OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'template', new_template, 'create_typical_building_from_model')
               end
             rescue
             end
@@ -541,25 +538,10 @@ module URBANopt
               end
             end
 
-            # calling create typical building the first time will create space types
+            # calling create typical building will create space types and assign HVAC systems
             OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', '__SKIP__', false)
-            OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'add_hvac', false, 'create_typical_building_from_model 1')
+            OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'system_type', system_type, 'create_typical_building_from_model')
 
-            # create a blended space type for each story
-            OpenStudio::Extension.set_measure_argument(osw, 
-              'blended_space_type_from_model', '__SKIP__', false)
-            OpenStudio::Extension.set_measure_argument(osw, 
-            'blended_space_type_from_model', 'blend_method', 'Building Story')
-
-            # create geometry for the desired feature, this will reuse blended space types in the model for each story and remove the bar geometry
-            OpenStudio::Extension.set_measure_argument(osw, 'urban_geometry_creation', '__SKIP__', false)
-            OpenStudio::Extension.set_measure_argument(osw, 'urban_geometry_creation', 'geojson_file', scenario.feature_file.path)
-            OpenStudio::Extension.set_measure_argument(osw, 'urban_geometry_creation', 'feature_id', feature_id)
-            OpenStudio::Extension.set_measure_argument(osw, 'urban_geometry_creation', 'surrounding_buildings', 'ShadingOnly')
-                          
-            # call create typical building a second time, do not touch space types, only add hvac
-            OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', '__SKIP__', false)
-            OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'system_type', system_type, 'create_typical_building_from_model 2')
           end
 
           # call the default feature reporting measure
