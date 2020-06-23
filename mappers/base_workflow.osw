@@ -62,7 +62,7 @@
         "blend_method": "Building Story"
       }
     },{
-      "measure_dir_name": "urban_geometry_creation",
+      "measure_dir_name": "urban_geometry_creation_zoning",
       "arguments": {
         "__SKIP__": true,
         "geojson_file": "exportGeo.json",
