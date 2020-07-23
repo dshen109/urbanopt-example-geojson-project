@@ -254,7 +254,7 @@ module URBANopt
         if feature_names.size == 1
           feature_name = feature_names[0]
         end
-        
+
         # deep clone of @@osw before we configure it
         osw = Marshal.load(Marshal.dump(@@osw))
         
@@ -300,8 +300,17 @@ module URBANopt
           # check for detailed model filename
           if building_hash.key?(:detailed_model_filename)
             detailed_model_filename = building_hash[:detailed_model_filename]
-            osw[:file_paths] << File.join(File.dirname(__FILE__), '../osm_building/')
+            osw[:file_paths] << File.join(File.dirname(__FILE__), '../building_models/')
             osw[:seed_file] = detailed_model_filename
+
+            floor_space_file = File.join(File.dirname(__FILE__), '../building_models/', detailed_model_filename.to_s.split('.')[0], '.json')
+
+            # check if floorspace.js file exists
+            if File.exist?(floor_space_file)
+              OpenStudio::Extension.set_measure_argument(osw, 'merge_floorspace_js_with_model', '__SKIP__', false)
+              
+              OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', '__SKIP__', false, 'create_typical_building_from_model 1')
+            end
 
             # skip PMV measure with detailed models:
             OpenStudio::Extension.set_measure_argument(osw, 'PredictedMeanVote', '__SKIP__', true)
