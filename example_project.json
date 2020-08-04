@@ -316,7 +316,7 @@
         "name": "Office 1",
         "type": "Building",
         "building_type": "Office",
-        "number_of_stories": 6,
+        "number_of_stories": 2,
         "detailed_model_filename": "7.osm"
       },
       "geometry": {
