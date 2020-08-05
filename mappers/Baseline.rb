@@ -355,10 +355,6 @@ module URBANopt
                   puts "NO WEATHER FILES SPECIFIED...SIMULATIONS MAY FAIL"
                 end
               end
-
-             # OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'use_upstream_args', false, 'create_typical_building_from_model 1')
-
-              
               # template
               begin
                 new_template = nil
