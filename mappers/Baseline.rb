@@ -294,7 +294,7 @@ module URBANopt
             end
           rescue StandardError
           end
- 
+
           # convert to hash
           building_hash = feature.to_hash
           # check for detailed model filename
@@ -303,13 +303,86 @@ module URBANopt
             osw[:file_paths] << File.join(File.dirname(__FILE__), '../building_models/')
             osw[:seed_file] = detailed_model_filename
 
-            floor_space_file = File.join(File.dirname(__FILE__), '../building_models/', detailed_model_filename.to_s.split('.')[0], '.json')
+            floor_space_file = File.join(File.dirname(__FILE__), '../building_models/', detailed_model_filename.to_s.split('.')[0] + '.json')
 
             # check if floorspace.js file exists
             if File.exist?(floor_space_file)
+
+            # ChangeBuildingLocation
+            # set skip to false for change building location
+            OpenStudio::Extension.set_measure_argument(osw, 'ChangeBuildingLocation', '__SKIP__', false)
+            
+              # cec climate zone takes precedence
+              cec_found = false
+              begin
+                cec_climate_zone = feature.cec_climate_zone
+                if !cec_climate_zone.empty?
+                  cec_climate_zone = "T24-CEC" + cec_climate_zone
+                  OpenStudio::Extension.set_measure_argument(osw, 'ChangeBuildingLocation', 'climate_zone', cec_climate_zone)
+                  cec_found = true
+                  # Temporary fix for CEC climate zone:
+                  cec_modified_zone = "CEC " + cec_climate_zone
+                  OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'climate_zone', cec_modified_zone, 'create_typical_building_from_model 1')
+                end
+              rescue
+              end
+              if !cec_found
+                begin
+                  climate_zone = feature.climate_zone
+                  if !climate_zone.empty?
+                    climate_zone = "ASHRAE 169-2013-" + climate_zone
+                    OpenStudio::Extension.set_measure_argument(osw, 'ChangeBuildingLocation', 'climate_zone', climate_zone)
+                  end
+                rescue
+                end
+              end
+
+              # set weather file
+              begin
+                weather_filename = feature.weather_filename
+                if !feature.weather_filename.nil? && !feature.weather_filename.empty?
+                  OpenStudio::Extension.set_measure_argument(osw, 'ChangeBuildingLocation', 'weather_file_name', weather_filename)
+                  puts "Setting weather_file_name to #{weather_filename} as specified in the FeatureFile"
+                end
+              rescue
+                puts "No weather_file specified on feature"
+                epw_file_path = Dir.glob(File.join(File.dirname(__FILE__), '../weather/*.epw'))[0]
+                if !epw_file_path.nil? && !epw_file_path.empty?
+                  epw_file_name = File.basename(epw_file_path)
+                  OpenStudio::Extension.set_measure_argument(osw, 'ChangeBuildingLocation', 'weather_file_name', epw_file_name)
+                  puts "Setting weather_file_name to first epw file found in the weather folder: #{epw_file_name}"
+                else
+                  puts "NO WEATHER FILES SPECIFIED...SIMULATIONS MAY FAIL"
+                end
+              end
+
+             # OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'use_upstream_args', false, 'create_typical_building_from_model 1')
+
+              
+              # template
+              begin
+                new_template = nil
+                template = feature.template
+
+                # can we override template with year_built info? (keeping same template family)
+                if building_hash.key?(:year_built) && !building_hash[:year_built].nil? && !feature.template.empty?
+                  new_template = lookup_template_by_year_built(template,  year_built)
+                elsif !feature.template.empty?
+                  new_template = template
+                end
+              
+                if new_template
+                  OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'template', new_template, 'create_typical_building_from_model 1')
+                end
+              rescue
+              end
+              
               OpenStudio::Extension.set_measure_argument(osw, 'merge_floorspace_js_with_model', '__SKIP__', false)
+              OpenStudio::Extension.set_measure_argument(osw, 'merge_floorspace_js_with_model', 'floorplan_path', floor_space_file)
               
               OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', '__SKIP__', false, 'create_typical_building_from_model 1')
+              OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'add_constructions', true, 'create_typical_building_from_model 1')
+              
             end
 
             # skip PMV measure with detailed models:
