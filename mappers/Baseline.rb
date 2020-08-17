@@ -297,15 +297,17 @@ module URBANopt
 
           # convert to hash
           building_hash = feature.to_hash
+
           # check for detailed model filename
           if building_hash.key?(:detailed_model_filename)
             detailed_model_filename = building_hash[:detailed_model_filename]
             osw[:file_paths] << File.join(File.dirname(__FILE__), '../building_models/')
+            # assign detailed_model_filename as the seed model
             osw[:seed_file] = detailed_model_filename
 
+            # check if the floorspace.js file exists for the detailed model filename
             floor_space_file = File.join(File.dirname(__FILE__), '../building_models/', detailed_model_filename.to_s.split('.')[0] + '.json')
 
-            # check if floorspace.js file exists
             if File.exist?(floor_space_file)
 
             # ChangeBuildingLocation
@@ -373,15 +375,17 @@ module URBANopt
               rescue
               end
               
+              # set skip to false for merge floorspace js with model measure
               OpenStudio::Extension.set_measure_argument(osw, 'merge_floorspace_js_with_model', '__SKIP__', false)
               OpenStudio::Extension.set_measure_argument(osw, 'merge_floorspace_js_with_model', 'floorplan_path', floor_space_file)
               
+              # set skip to false for create typical building from model measure
               OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', '__SKIP__', false, 'create_typical_building_from_model 1')
-              OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'add_constructions', true, 'create_typical_building_from_model 1')
+              OpenStudio::Extension.set_measure_argument(osw, 'create_typical_building_from_model', 'add_hvac', true, 'create_typical_building_from_model 1')
               
             end
 
-            # skip PMV measure with detailed models:
+            # skip PMV measure with detailed models
             OpenStudio::Extension.set_measure_argument(osw, 'PredictedMeanVote', '__SKIP__', true)
 
           # in case detailed model filename is not present
