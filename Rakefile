@@ -124,7 +124,10 @@ end
 
 def configure_project
   # write a runner.conf in project dir
-  options = {gemfile_path: File.join(root_dir, 'Gemfile'), bundle_install_path: File.join(root_dir, ".bundle/install")}
+  options = {
+    gemfile_path: File.join(root_dir, 'Gemfile'),
+    bundle_install_path: File.join(root_dir, ".bundle/install")
+  }
   File.open(File.join(root_dir, 'runner.conf'), "w") do |f|
     f.write(options.to_json)
   end
